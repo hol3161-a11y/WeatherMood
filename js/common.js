@@ -186,3 +186,12 @@ let pathname = location.pathname;
 if(!(location.pathname == "/" || location.href.match("weather") || location.href.match("set"))){
     weatherBarFun();
   }; 
+
+
+  window.addEventListener("load", () => {
+  const loading = document.querySelector("#loading");
+
+  setTimeout(() => {
+    loading.classList.add("hide");
+  }, 700);
+});
