@@ -7,7 +7,6 @@ const closeBtn = document.querySelector(".close");
 const starBtn = document.querySelector(".star-btn");
 const appLoading = document.querySelector(".appLoading");
 
-
 let imgData = null;
 let currentTempGlobal = 20;
 
@@ -51,7 +50,9 @@ function renderCodi(btn) {
 
   const tab = btn.innerText;
   const season = getSeasonByTemp(currentTempGlobal);
-  const gender = sessionStorage.getItem("gender") || "m";
+
+  // 여기 중요
+  const gender = localStorage.getItem("gender") || "m";
 
   el_Img.innerHTML = "";
 
@@ -114,77 +115,6 @@ let codiImg = async function () {
       renderCodi(el_Btn[0]);
     }
   }, 3000);
-
-  el_Img.addEventListener("click", function (e) {
-    if (e.target.tagName === "IMG") {
-      const img = e.target;
-
-      modalImg.src = img.src;
-      modalImg.dataset.id = img.dataset.id;
-
-      const top = img.dataset.top;
-      const bottom = img.dataset.bottom;
-
-      const modalTop = document.getElementById("modalTop");
-      const modalBottom = document.getElementById("modalBottom");
-
-      if (modalTop) modalTop.innerText = `상의: ${top}`;
-      if (modalBottom) modalBottom.innerText = `하의: ${bottom}`;
-
-      overlay.classList.add("active");
-      modal.classList.add("active");
-
-      let scrapList = JSON.parse(localStorage.getItem("scrapList")) || [];
-
-      resetStar();
-
-      scrapList.forEach(function (scrapNum) {
-        if (scrapNum == img.dataset.id) {
-          starBtn.classList.add("active");
-          starBtn.innerHTML = `<img src="./image/codi/Vector.svg" alt="star filled">`;
-        }
-      });
-    }
-  });
-
-  closeBtn.addEventListener("click", closeModal);
-  overlay.addEventListener("click", closeModal);
 };
-
-function resetStar() {
-  starBtn.classList.remove("active");
-  starBtn.innerHTML = `<img src="./image/codi/Vector2.svg" alt="star empty">`;
-}
-
-resetStar();
-
-starBtn.addEventListener("click", function () {
-  let scrapList = JSON.parse(localStorage.getItem("scrapList")) || [];
-  const imgId = modalImg.dataset.id;
-
-  this.classList.toggle("active");
-
-  if (this.classList.contains("active")) {
-    this.innerHTML = `<img src="./image/codi/Vector.svg" alt="star filled">`;
-
-    if (!scrapList.includes(imgId)) {
-      scrapList.push(imgId);
-    }
-  } else {
-    this.innerHTML = `<img src="./image/codi/Vector2.svg" alt="star empty">`;
-    scrapList = scrapList.filter((v) => v != imgId);
-  }
-
-  localStorage.setItem("scrapList", JSON.stringify(scrapList));
-});
-
-function closeModal() {
-  overlay.classList.remove("active");
-  modal.classList.remove("active");
-
-  setTimeout(() => {
-    starBtn.innerHTML = `<img src="./image/codi/Vector2.svg" alt="star empty">`;
-  }, 100);
-}
 
 codiImg();

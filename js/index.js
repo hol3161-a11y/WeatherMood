@@ -17,7 +17,7 @@ if (isOnboarded) {
 const el_input = document.querySelectorAll(".genderOption input");
 const el_button = document.querySelector(".onboarding button");
 
-let selectedGender = sessionStorage.getItem("gender") || null;
+let selectedGender = localStorage.getItem("gender") || null;
 
 el_input.forEach(function (ee) {
   ee.addEventListener("change", function () {
@@ -29,7 +29,7 @@ el_input.forEach(function (ee) {
 el_button.addEventListener("click", function () {
   if (!selectedGender) return;
 
-  sessionStorage.setItem("gender", selectedGender);
+  localStorage.setItem("gender", selectedGender);
 
   // 온보딩 완료 여부만 유지
   localStorage.setItem("onboarding", "true");
@@ -141,7 +141,7 @@ let loadCharacter = async function () {
 
   if (!tempSky) return;
 
-  let genderCheck = sessionStorage.getItem("gender") || "m";
+  let genderCheck =  localStorage.getItem("gender") || "m";
 
   let resultCodi = data.캐릭터옷.find(function (ss) {
     return tempSky.temp >= ss.min && tempSky.temp <= ss.max;
