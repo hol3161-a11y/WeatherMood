@@ -2,7 +2,8 @@
 const genderInputM = document.querySelector('input[value="m"]');
 const genderInputW = document.querySelector('input[value="w"]');
 
-const savedGender = sessionStorage.getItem("gender") || "m";
+// gender도 localStorage로 유지
+const savedGender = localStorage.getItem("gender") || "m";
 
 if (savedGender === "m") {
   if (genderInputM) genderInputM.checked = true;
@@ -19,10 +20,11 @@ const el_bgcInput = document.querySelectorAll(".bgcOption input");
 const el_setBtn = document.querySelector(".setBtn button");
 
 // ====================== 저장될 값 ====================
-let selectedGender = sessionStorage.getItem("gender") || "m";
+let selectedGender = localStorage.getItem("gender") || "m";
 let selectedTemp = localStorage.getItem("temp") || "c";
 let selectedLang = localStorage.getItem("lang") || "ko";
 
+// 기본 배경색 초록색
 if (!localStorage.getItem("bgc")) {
   localStorage.setItem("bgc", "green");
 }
@@ -84,17 +86,20 @@ el_bgcInput.forEach(function (input) {
 // ====================== 저장 버튼 클릭 ====================
 if (el_setBtn) {
   el_setBtn.addEventListener("click", function () {
-    const prevGender = sessionStorage.getItem("gender") || "m";
 
-    sessionStorage.setItem("gender", selectedGender);
+    const prevGender = localStorage.getItem("gender") || "m";
+
+    // gender도 유지
+    localStorage.setItem("gender", selectedGender);
 
     localStorage.setItem("temp", selectedTemp);
     localStorage.setItem("lang", selectedLang);
     localStorage.setItem("bgc", selectedBgc);
 
-    // 온보딩 완료 여부만 유지
+    // 온보딩 완료 여부 유지
     localStorage.setItem("onboarding", "true");
 
+    // 성별 바뀌면 스크랩 초기화
     if (prevGender !== selectedGender) {
       localStorage.removeItem("scrapList");
     }
