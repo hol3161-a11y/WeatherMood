@@ -51,7 +51,7 @@ function renderCodi(btn) {
 
   const tab = btn.innerText;
   const season = getSeasonByTemp(currentTempGlobal);
-  const gender = localStorage.getItem("gender") || "m";
+  const gender = sessionStorage.getItem("gender") || "m";
 
   el_Img.innerHTML = "";
 
