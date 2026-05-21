@@ -198,3 +198,6 @@ if(pathname == "/" || pathname.match('index') || pathname.match('mood') || pathn
     if(loading) loading.classList.add("hide");
   }, 700);
 });
+
+
+

@@ -7,6 +7,7 @@ const closeBtn = document.querySelector(".close");
 const starBtn = document.querySelector(".star-btn");
 const appLoading = document.querySelector(".appLoading");
 
+
 let imgData = null;
 let currentTempGlobal = 20;
 
