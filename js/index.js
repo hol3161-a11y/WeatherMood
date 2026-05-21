@@ -36,9 +36,10 @@ el_button.addEventListener("click", function () {
 
   // localStorage의 gender(key)를 생성하면서 거기에 남,녀값이 담긴 selectedGender을 저장
   localStorage.setItem("gender", selectedGender);
-
+  
   onboarding.style.display = "none";
   main.style.display = "block";
+  loadCharacter();
 });
 
 // ============================배경색 설정시 메인배경색 바뀌게===============================
@@ -133,6 +134,8 @@ let loadCharacter = async function () {
   let tempSky = JSON.parse(
     localStorage.getItem("tempSky"),
   ); /* 현재기온 가져오기 */
+
+
   let genderCheck = localStorage.getItem("gender");
 
   let resultCodi = data.캐릭터옷.find(function (ss) {
@@ -207,12 +210,21 @@ let loadCharacter = async function () {
       break;
   }
 };
-loadCharacter();
 
 window.addEventListener("load", () => {
   const loading = document.querySelector(".appLoading");
 
-  setTimeout(() => {
-    loading.classList.add("hide");
-  }, 1200);
+  const checkReady = setInterval(async () => {
+    const tempSky = JSON.parse(localStorage.getItem("tempSky"));
+
+    if (tempSky && localStorage.getItem("gender")) {
+      clearInterval(checkReady);
+
+      await loadCharacter();
+
+      if (loading) {
+        loading.classList.add("hide");
+      }
+    }
+  }, 100);
 });

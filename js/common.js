@@ -35,9 +35,11 @@ if(sessionStorage.ani){
         backBtn();
     }
     
+    
+    
+    // <!-------------------------- 날씨 api -------------------------->
+    let weatherBarFun=function(){
 
-// <!-------------------------- 날씨 api -------------------------->
-let weatherBarFun=function(){
     const serviceKey = "wdHUMVHHQP8PTCqieskq57%2Fq1PuW0Mw5VDJu1NscK56NMphWzBjzgYA6ow8DcmR5zs0pyITnyXqMWfUKyBdSCg%3D%3D";
     const nx = 61;
     const ny = 131;
@@ -77,6 +79,7 @@ let weatherBarFun=function(){
     
         const ncstData = await ncstRes.json();
         const fcstData = await fcstRes.json();
+
     
         const ncstItems = ncstData.response.body.items.item;
         const fcstItems = fcstData.response.body.items.item;
@@ -183,7 +186,7 @@ let weatherBarFun=function(){
 let pathname = location.pathname;
 
 
-if(!(location.pathname == "/" || location.href.match("weather") || location.href.match("set"))){
+if(pathname == "/" || pathname.match('index') || pathname.match('mood') || pathname.match('codi')){
     weatherBarFun();
   }; 
 
@@ -192,6 +195,6 @@ if(!(location.pathname == "/" || location.href.match("weather") || location.href
   const loading = document.querySelector("#loading");
 
   setTimeout(() => {
-    loading.classList.add("hide");
+    if(loading) loading.classList.add("hide");
   }, 700);
 });

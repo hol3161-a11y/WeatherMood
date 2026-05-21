@@ -247,3 +247,52 @@ fill:#00CE93;
   visibility: hidden;
   transition: 0.4s;
 }
+
+
+.app {
+  position: relative;
+  overflow: hidden;
+}
+
+.appLoading {
+  position: absolute;
+  inset: 0;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(180deg, #bff4e6 0%, #08d6a0 100%);
+  border-radius: 40px;
+
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.loadingSpinner {
+  width: 48px;
+  height: 48px;
+
+  border: 5px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+
+  animation: loadingSpin 0.8s linear infinite;
+  margin-bottom: 14px;
+}
+
+@keyframes loadingSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.appLoading.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: 0.4s;
+}
