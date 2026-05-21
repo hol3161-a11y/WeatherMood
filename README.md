@@ -18,7 +18,7 @@
 또한 코디, 활동, 음악 등 다양한 요소를 함께 제공하여 날씨에 맞는 하루의 분위기와 일상을 자연스럽게 경험할 수 있도록 구성되어 있습니다.
 
 ## 🔗 배포 URL
-👉 **[https://duajd3-lab.github.io/Weather-Mood/index.html](https://duajd3-lab.github.io/Weather-Mood/index.html)**
+👉 https://weather-mood-rho.vercel.app/
 
 
 ## 📑 프로젝트 요약
