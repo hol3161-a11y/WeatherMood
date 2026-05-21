@@ -19,7 +19,6 @@ const el_bgcInput = document.querySelectorAll(".bgcOption input");
 const el_setBtn = document.querySelector(".setBtn button");
 
 // ====================== 저장될 값 ====================
-// ====================== 저장될 값 ====================
 let selectedGender = sessionStorage.getItem("gender") || "m";
 let selectedTemp = localStorage.getItem("temp") || "c";
 let selectedLang = localStorage.getItem("lang") || "ko";

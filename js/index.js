@@ -3,7 +3,7 @@ const onboarding = document.querySelector(".onboarding");
 const main = document.querySelector(".main");
 
 // 로컬스토리지안에 gender값을 가져와라
-const savedGender = sessionStorage.getItem("gender");
+const savedGender =  localStorage.getItem("gender");
 
 if (savedGender) {
   /* 가져올수있다면->한번 선택한적 있음->바로 메인으로 */
