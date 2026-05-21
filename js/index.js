@@ -35,7 +35,7 @@ el_button.addEventListener("click", function () {
     return; /* 확인버튼 눌렀을때 selectedGender값이 없으면 이벤트를 끝내서 넘어가지 못하게 */
 
   // localStorage의 gender(key)를 생성하면서 거기에 남,녀값이 담긴 selectedGender을 저장
-  localStorage.setItem("gender", selectedGender);
+  sessionStorage.setItem("gender", selectedGender);
   
   onboarding.style.display = "none";
   main.style.display = "block";
@@ -136,7 +136,7 @@ let loadCharacter = async function () {
   ); /* 현재기온 가져오기 */
 
 
-  let genderCheck = localStorage.getItem("gender");
+  let genderCheck = sessionStorage.getItem("gender");
 
   let resultCodi = data.캐릭터옷.find(function (ss) {
     return tempSky.temp >= ss.min && tempSky.temp <= ss.max;
@@ -217,7 +217,7 @@ window.addEventListener("load", () => {
   const checkReady = setInterval(async () => {
     const tempSky = JSON.parse(localStorage.getItem("tempSky"));
 
-    if (tempSky && localStorage.getItem("gender")) {
+    if (tempSky && sessionStorage.getItem("gender")) {
       clearInterval(checkReady);
 
       await loadCharacter();
