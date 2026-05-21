@@ -15,7 +15,8 @@
     font-family: "material symbols outlined";
     padding-left: 2px;
     display: inline-block;
-    vertical-align: bottom;  
+    vertical-align: bottom; 
+    cursor: pointer; 
 }
 
 /* ------------------ 코디 보관함 빈공간일때---------------------- */
@@ -77,6 +78,7 @@ border:2px dashed #f0f0f0;margin-right:10px;}
     padding-left: 2px;
     display: inline-block;
     vertical-align: bottom;  
+    cursor: pointer;
 }
 /* ------------------ 음악 보관함 빈공간일때---------------------- */
 .moodScrapContainerEmpty{height: 180px; 

@@ -30,6 +30,7 @@
     border-radius: 40px;
     font-size: 12px;
     width: 175px;
+    cursor: pointer;
 }
 
 .bgcSelect span{
@@ -113,7 +114,8 @@
     font-family: 'Pretendard', sans-serif;  
     bottom:40px;
     left:50%;
-    transform:translateX(-50%);    
+    transform:translateX(-50%); 
+    cursor: pointer;   
 }
 .setBtn button.active{
     position:absolute;
