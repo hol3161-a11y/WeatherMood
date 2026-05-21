@@ -87,6 +87,9 @@ if (el_setBtn) {
     localStorage.setItem("lang", selectedLang);
     localStorage.setItem("bgc", selectedBgc);
 
+    // 온보딩 완료 여부만 유지
+    localStorage.setItem("onboarding", "true");
+
     if (prevGender !== selectedGender) {
       localStorage.removeItem("scrapList");
     }
