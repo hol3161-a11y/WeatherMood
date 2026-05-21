@@ -19,9 +19,15 @@ const el_bgcInput = document.querySelectorAll(".bgcOption input");
 const el_setBtn = document.querySelector(".setBtn button");
 
 // ====================== 저장될 값 ====================
+// ====================== 저장될 값 ====================
 let selectedGender = sessionStorage.getItem("gender") || "m";
 let selectedTemp = localStorage.getItem("temp") || "c";
 let selectedLang = localStorage.getItem("lang") || "ko";
+
+if (!localStorage.getItem("bgc")) {
+  localStorage.setItem("bgc", "green");
+}
+
 let selectedBgc = localStorage.getItem("bgc") || "green";
 
 // ====================== checked 공통 함수 ====================
