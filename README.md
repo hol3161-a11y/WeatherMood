@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Image](https://github.com/user-attachments/assets/5d476bef-5d39-4be1-804c-9f028c1cc93e)
 
 ## ✨ 소개
@@ -272,3 +273,6 @@ https://ripo-tau.vercel.app
     *클릭 동작이 공통 컴포넌트에 항상 활성화되어 있어 모든 페이지에서 작동하고 있었음
        
     ⇒ **해결방법**: 이를 해결하기 위해 컴포넌트에 click prop을 추가하고 기본값을 false로 설정, 주문내역 페이지에서는 click={true}로 전달하여 해당 페이지에서만 상품 클릭 시 상세 페이지로 이동하도록 분기 처리 <br/>
+=======
+# WeatherMood
+>>>>>>> 3fc57e0e3c0264ae089f6ceffd7468c0cce7b14e
