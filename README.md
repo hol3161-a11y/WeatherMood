@@ -1,278 +1,653 @@
-<<<<<<< HEAD
-![Image](https://github.com/user-attachments/assets/5d476bef-5d39-4be1-804c-9f028c1cc93e)
+![banner](https://github.com/user-attachments/assets/d1cb3cc5-a862-4307-a14b-003dce1c603e)
 
 ## ✨ 소개
-소소한 일상을 채워주는 디자인 문구와 아이템을 소개하는 SPA 웹사이트, <b>"Ripo"</b> 입니다.
+<b>Weather Mood</b>는 날씨 정보를 기반으로 사용자의 일상과 연결되는 라이프스타일 앱입니다.<br>
+기존의 날씨 서비스는 기온이나 강수 확률 등 수치 중심의 정보를 제공하는 경우가 많습니다.<br>
 
-자신만의 일상과 감정을 감성적으로 기록하고 꾸밀 수 있는 공간을 제공하여, <br>
-소소한 순간들을 소중하게 남길 수 있도록 합니다. <br>
-또한, 일상을 기록하는 습관이 주는 즐거움과 그 의미를 널리 알리고자 기획하였습니다. <br>
+하지만 실제 일상에서는<br>
 
-480px(모바일) 해상도에 최적화된 디자인을 적용하여, <br>
-언제 어디서나 편리하게 사용할 수 있도록 구현하였습니다.
+“그래서 오늘 뭐 입지?”<br>
+“지금 밖에서 운동해도 괜찮을까?”<br>
+“오늘 날씨에 어울리는 분위기는 어떤 걸까?”<br>
+
+처럼 날씨를 기준으로 한 행동과 선택이 더 중요한 요소가 됩니다.<br>
+
+이러한 점에 주목하여, 단순히 날씨를 확인하는 것을 넘어 날씨와 일상을 연결하는 서비스를 만들고자 <b>Weather Mood</b> 프로젝트를 기획하게 되었습니다.<br>
+
+<b>Weather Mood</b>는 메인 화면에서 남성 또는 여성 AI 캐릭터가 현재 날씨에 맞는 옷차림을 보여주어 사용자가 날씨에 어울리는 코디를 직관적으로 확인할 수 있도록 합니다.
+또한 코디, 활동, 음악 등 다양한 요소를 함께 제공하여 날씨에 맞는 하루의 분위기와 일상을 자연스럽게 경험할 수 있도록 구성되어 있습니다.
 
 ## 🔗 배포 URL
-https://ripo-tau.vercel.app
+👉 **[https://duajd3-lab.github.io/Weather-Mood/index.html](https://duajd3-lab.github.io/Weather-Mood/index.html)**
+
 
 ## 📑 프로젝트 요약
 
 ### 1. 주제
 
-* 매일 기록하는 습관과 소소한 취향을 반영해, 자연스럽게 소비로 이어지는 감성적이고 귀여운 쇼핑 공간 제공
+* 날씨 정보를 기반으로 하루의 분위기와 일상을 연결하는 서비스
 
 ### 2. 목표
 
-* 타겟층의 취향을 고려한 제품 구성
-* 검색, 장바구니 기능 등 쇼핑 경험 개선을 통해 사용자 만족도 향상
-
+* 날씨 정보를 직관적으로 전달하여 사용자가 쉽게 이해하고 활용할 수 있도록 하는 것
+* 코디, 활동, 음악 등 다양한 일상 요소를 함께 제공하여 사용자가 하루를 보다 편리하게 보낼 수 있도록 하는 것
+  
 ### 3. 핵심 기능
 
-* 카테고리별 상품 리스트 및 상세 정보 제공
-* 사용자 맞춤 검색 기능
-* 장바구니를 통한 상품 보관 및 선택 결제 기능
-* 자주 묻는 질문 페이지 제공
-* 회원가입 및 로그인 기능
-* 마이페이지 주문 내역 관리
-* 모바일 480px
+* 현재 날씨 정보 제공 (기온, 날씨 상태 확인)
+* AI 캐릭터를 활용한 날씨 기반 코디 추천 기능
+* 캐주얼, 스트릿, 모던, 로맨틱, 미니멀 등 스타일별 코디 카테고리 제공
+* 코디 이미지를 크게 볼 수 있는 팝업 기능
+* 날씨 분위기에 맞는 음악 추천 기능
+* 날씨에 맞는 야외 활동 추천 (러닝, 자전거, 캠핑, 스포츠 등)
+* 마음에 드는 코디와 음악을 저장할 수 있는 보관함 기능
+* 직관적인 하단 네비게이션을 통한 페이지 이동 기능
+* 다양한 디바이스에서 사용할 수 있는 반응형 UI
+
 
 ### 4. 주요 기술 스택
 
-* Front-End : React, React Router
-* Back-End : Node.js, PHP, XAMPP
-* Data-Base : MySQL
+* Front-End : HTML5, CSS3, JavaScript
+* Data : Weather API, JSON
+* Design : Figma, Photoshop, Illustrator
+* Tools : Visual Studio Code, GitHub
 
-## 📆 기간 및 인원
+## 📅 개발 기간
 
-  * 2025.05.08-2025.05.27 평일 기준 총 14일
-    * 기초 데이터 수집 및 화면 설계 기간 : 4일
-    * 개발 및 테스트 기간 : 10일
+2026.02 ~ 2026.03
    
-  * 팀원 : 2명
+## 👥 Team
 
-## 👩🏻‍🤝‍🧑🏻 팀원 소개
+- 💻 **개발** : 김나영  
+- 🧑‍💼 **총괄** : 손영재  
+- 🎨 **디자인** : 심채빈  
+- 📝 **기획** : 이예원  
 
-| 이름 | 주요 페이지 컴포넌트 | 해당 |
-| :---:| :---: | :---: |
-| 천지호 | Home.jsx, 검색(search 폴더), 카테고리(category 폴더), 상품 정보(product 폴더), Faq.jsx |  |
-| 소연희 | Splash.jsx, 장바구니(cart 폴더), 결제(pay 폴더), 마이페이지(mypage 폴더), 로그인 및 회원가입(login 폴더) | ✔ |
+## 👩🏻‍🤝‍🧑🏻 팀원 역할
+
+|  이름 | 주요 담당 기능                                            |  참여 |
+| :-: | :-------------------------------------------------- | :-: |
+| 김나영 | 코디 추천 기능 (codi), 코디 상세 팝업창 구현                       |  ✔  |
+| 손영재 | 메인 화면 (index), 보관함 기능 (scrap, moodScrap, codiScrap) |  ✔  |
+| 심채빈 | UI 디자인 전체, 음악 추천 기능 (mood), 음악 상세 팝업창 구현, 날씨 기반 야외 활동 추천          |  ✔  |
+| 이예원 | 현재 날씨 기능 (weather), 상세 날씨 정보 (weatherSub)           |  ✔  |
+
 
 ## 💡 주요 기능
 
-### 1. 회원가입 및 로그인
-* 기본 정보 입력을 통한 회원가입 기능
-* 로그인 후 마이페이지, 장바구니 등 개인화 기능 이용 가능
+* 🌤 **AI 캐릭터 날씨 코디**
+  현재 날씨 데이터를 기반으로 AI 캐릭터가 날씨에 맞는 코디를 보여줍니다.
 
-### 2. 검색
-* 키워드 기반 상품 검색 기능
-* 검색 결과 페이지에서 상품 리스트 확인 가능
-* 관련 키워드 기반 추천 키워드 기능으로 쉽게 검색 가능
+* 🌦 **상세 날씨 정보 제공**
+  현재 기온, 날씨 상태 등 다양한 날씨 정보를 확인할 수 있습니다.
 
-### 3. 상품 정보
-* 카테고리별로 상품을 구분하여 리스트 형태로 출력
-* 각 상품 클릭 시 상세페이지에서 상품 정보 확인 가능
-* 서버에서 연동된 상품 데이터를 기반으로 실시간 정보 반영
+* 👕 **날씨 기반 코디 추천**
+  날씨에 맞는 코디를 **캐주얼 / 스트릿 스타일**로 추천합니다.
 
-### 4. 장바구니
-* 원하는 상품을 장바구니에 담아두고 한 번에 결제 가능
-* 선택한 상품만 결제할 수 있도록 체크박스 기능 제공
-* 선택 삭제 및 개별 삭제 기능 지원
-* 총 주문 금액 자동 계산
+* 🎵 **날씨 기반 음악 추천**
+  날씨 분위기에 어울리는 음악을 추천합니다.
 
-### 5. 마이페이지
-* 주문 내역 확인 기능
-* 사용자들이 자주 찾는 질문 정리 후 FAQ 탭 구성
+* 🌳 **야외 활동 추천**
+  현재 날씨에 맞는 야외 활동을 **아이콘과 함께 추천**합니다.
+
+* ⭐ **보관함 기능**
+  마음에 드는 **코디와 음악을 저장**하여 다시 확인할 수 있습니다.
+
+* 🔍 **팝업 상세 보기**
+  코디와 음악 콘텐츠를 클릭하면 **팝업창으로 크게 확인할 수 있습니다.**
+
 
 ## 🗂️ 폴더 구조
 
+```id="weather-mood-structure"
+WEATHER-MOOD
+│
+├── css                 # 웹사이트 전체 스타일 파일
+│   ├── common          # 공통 스타일 (폰트, 리셋, 공통 UI)
+│   │   ├── common.css
+│   │   ├── font.css
+│   │   └── reset.css
+│   │
+│   ├── bg.css          # 배경 관련 스타일
+│   ├── codi.css        # 날씨 기반 코디 페이지 스타일
+│   ├── codiScrap.css   # 코디 보관함 스타일
+│   ├── index.css       # 메인 페이지 스타일
+│   ├── mood.css        # 음악 추천 페이지 스타일
+│   ├── moodScrap.css   # 음악 보관함 스타일
+│   ├── scrap.css       # 스크랩 페이지 스타일
+│   ├── set.css         # 설정 페이지 스타일
+│   ├── weather.css     # 날씨 메인 페이지 스타일
+│   └── weatherSub.css  # 날씨 상세 정보 페이지 스타일
+│
+├── image               # 프로젝트에 사용되는 이미지 및 아이콘
+│
+├── js                  # 웹사이트 기능 구현 JavaScript
+│   ├── codi.js         # 날씨 기반 코디 추천 기능
+│   ├── codi.json       # 코디 데이터
+│   ├── codiScrap.js    # 코디 스크랩 기능
+│   ├── common.js       # 공통 기능 스크립트
+│   ├── index.js        # 메인 페이지 기능
+│   ├── index.json      # 메인 페이지 데이터
+│   ├── mood-playlist.json # 날씨 기반 음악 추천 데이터
+│   ├── mood.js         # 음악 추천 기능
+│   ├── moodScrap.js    # 음악 스크랩 기능
+│   ├── scrap.js        # 스크랩 관리 기능
+│   ├── set.js          # 사용자 설정 기능
+│   ├── weather.js      # 현재 날씨 정보 기능
+│   └── weatherSub.js   # 상세 날씨 정보 기능
+│
+├── bg.html             # 배경 설정 페이지
+├── branch.html         # 페이지 이동 관련 화면
+├── codi.html           # 날씨 기반 코디 추천 페이지
+├── codiScrap.html      # 코디 보관함 페이지
+├── index.html          # 메인 페이지
+├── mood.html           # 날씨 기반 음악 추천 페이지
+├── moodScrap.html      # 음악 보관함 페이지
+├── scrap.html          # 전체 스크랩 관리 페이지
+├── set.html            # 사용자 설정 페이지
+├── weather.html        # 현재 날씨 페이지
+├── weatherSub.html     # 상세 날씨 정보 페이지
+│
+└── README.md           # 프로젝트 소개 및 설명 문서
 ```
-📂Ripo-Project
-┣ 📂ripo                      # 리포 ( Front-End_React 프로젝트 )
-┃ ┣ 📂public
-┃ ┃ ┣ 📂imgs
-┃ ┃ ┃ ┗ 📂_icons
-┃ ┣ 📂src
-┃ ┃ ┣ 📂component             # 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂_common             # 공통 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂00-login            # 로그인 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂01-home             # 홈 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂02-search           # 검색 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂03-category         # 카테고리 컴포넌트 폴더               
-┃ ┃ ┃ ┣ 📂04-product          # 상품 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂05-cart             # 장바구니 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂06-pay              # 결제 컴포넌트 폴더
-┃ ┃ ┃ ┗ 📂icons
-┃ ┃ ┣ 📂pages                 # 각 페이지 컴포넌트 폴더
-┃ ┃ ┃ ┣ 📂00-login
-┃ ┃ ┃ ┣ 📂01-home
-┃ ┃ ┃ ┣ 📂02-search
-┃ ┃ ┃ ┣ 📂03-category
-┃ ┃ ┃ ┣ 📂04-product 
-┃ ┃ ┃ ┣ 📂05-cart
-┃ ┃ ┃ ┣ 📂06-pay
-┃ ┃ ┃ ┣ 📂07-mypage
-┃ ┃ ┃ ┗ 📜Splash.jsx          # 온보딩 페이지
-┃ ┃ ┗ 📂styles                # scss
-┃ ┃ ┗ 📜App.js                # 프로젝트의 전체 라우팅 및 최상위 컴포넌트
-┃ ┣ ⚙️.env
-┃ ┗ README.md
-┣ 📂admin                     # 리포 ( Back-End_PHP 프로젝트 )
-┃ ┣ 📂api                     # 데이터 가공 및 반환을 담당하는 API 파일들이 위치한 폴더
-┃ ┣ 📂member                  # 회원가입, 탈퇴 등 회원 관련 데이터를 저장하고 관리하는 폴더
-┃ ┣ 📂product                 # 카테고리 및 상품을 생성, 수정, 삭제하는 기능 폴더
-┃ ┣ 📜auth.php                # 관리자 페이지에 일반 사용자가 접근 시 접근 제한 처리
-┃ ┣ 📜common.php              # 관리자 페이지 공통: 카테고리 관련 함수 정의
-┃ ┣ 📜config.php              # 데이터베이스 연결 및 사이트 기본 설정 파일
-┃ ┣ 📜header.php              # 관리자 페이지 공통 헤더 파일
-┃ ┣ 📜index.php               # 관리자 페이지 메인 페이지 진입
-┃ ┣ 📜login.php               # 관리자 로그인 처리
-┃ ┣ 📜logout.php              # 관리자 로그아웃 처리
-┃ ┣ 📜table.php               # 데이터베이스 테이블 생성 파일
-┗ ┗ 📜style.css
-```
+
 
 ## 💻 개발 환경
 
 ### 1. Frond-End
 
-| 사용기술 | 설명 |Badge |
-| :---:| :---: | :---: |
-| **React** | **SPA기반 프레임워크** |![react](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)|
-|**React Router Dom** | **페이지 라우팅 관리** |![reactrouter](https://img.shields.io/badge/ReactRouter-CA4245?style=flat-square&logo=reactrouter&logoColor=white)|
-| **React Hook Form** | **폼 상태 및 데이터 관리** |![reacthookform](https://img.shields.io/badge/ReactHookForm-F24E1E?style=flat-square&logo=reacthookform&logoColor=white)|
-| **Axios** | **클라이언트에서 서버로 API 요청 처리** |![axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)|
+|      사용기술      | 설명                   |                                                       Badge                                                       |
+| :------------: | :------------------- | :---------------------------------------------------------------------------------------------------------------: |
+|    **HTML5**   | 웹 페이지 구조 설계          |         ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)        |
+|    **CSS3**    | 웹 페이지 스타일 및 레이아웃 디자인 |          ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)          |
+| **JavaScript** | 사용자 인터랙션 및 기능 구현     | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black) |
 
-### 2. UI/UX 라이브러리
+---
 
-| 사용기술 | 설명 | Badge |
-| :---:| :---: | :---: |
-| **MUI** | **UI 프레임워크** |![mui](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white) |
-| **Swiper** | **슬라이더** |![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=axios&logoColor=white)|
-| **react-swipeable** | **스와이프 제스처** |![npm](https://img.shields.io/badge/react--swipeable-00e6a4?style=flat-square&logo=npm&logoColor=white)|
-| **motion** | **애니메이션** |![motion](https://img.shields.io/badge/motion-fff312?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgOSI+CiAgPHBhdGggZD0iTSA5LjA2MiAwIEwgNC4zMiA4Ljk5MiBMIDAgOC45OTIgTCAzLjcwMyAxLjk3MSBDIDQuMjc3IDAuODgyIDUuNzA5IDAgNi45MDIgMCBaIE0gMTkuNjU2IDIuMjQ4IEMgMTkuNjU2IDEuMDA2IDIwLjYyMyAwIDIxLjgxNiAwIEMgMjMuMDA5IDAgMjMuOTc2IDEuMDA2IDIzLjk3NiAyLjI0OCBDIDIzLjk3NiAzLjQ5IDIzLjAwOSA0LjQ5NiAyMS44MTYgNC40OTYgQyAyMC42MjMgNC40OTYgMTkuNjU2IDMuNDkgMTkuNjU2IDIuMjQ4IFogTSA5Ljg3MiAwIEwgMTQuMTkyIDAgTCA5LjQ1IDguOTkyIEwgNS4xMyA4Ljk5MiBaIE0gMTQuOTc0IDAgTCAxOS4yOTQgMCBMIDE1LjU5MiA3LjAyMSBDIDE1LjAxOCA4LjExIDEzLjU4NSA4Ljk5MiAxMi4zOTIgOC45OTIgTCAxMC4yMzIgOC45OTIgWiIgZmlsbD0icmdiKDAsIDAsIDApIj48L3BhdGg+Cjwvc3ZnPgo=&logoColor=white)|
-| **Sass** | **스타일링**|![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white)|
-| **sweetalert2** | **커스텀 팝업 알림 UI** |![sweetalert2](https://img.shields.io/badge/sweetalert2-F27474?style=flat-square&logo=datefns&logoColor=white)|
+### 2. 데이터 및 API
 
-### 3. Back-End
+|       사용기술      | 설명               |                                              Badge                                              |
+| :-------------: | :--------------- | :---------------------------------------------------------------------------------------------: |
+|     **JSON**    | 코디 및 음악 데이터 관리   | ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square\&logo=json\&logoColor=white) |
+| **Weather API** | 현재 날씨 및 날씨 정보 제공 |   ![API](https://img.shields.io/badge/API-FF6F00?style=flat-square\&logo=api\&logoColor=white)  |
 
-| 사용기술 | 설명 | Badge |
-| :---:| :---: | :---: |
-| **Node.js** | **JavaScript 런타임 환경** |![nodedotjs](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)|
-| **PHP** | **회원 및 상품 관리, 관리자 페이지 구현 등 서버 측 로직 처리** |![PHP](https://img.shields.io/badge/PHP-8892BE?style=flat-square&logo=npm&logoColor=white)|
-| **MySQL** | **데이터베이스 관리**  |![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=JSON&logoColor=white)|
-| **XAMPP** | **Apache, MySQL, PHP를 통합 제공하는 로컬 서버 개발 도구** |![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=nodemon&logoColor=white)|
-| **Axios** | **서버에서 API 요청 처리** |![axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)|
+---
+
+### 3. 디자인
+
+|       사용기술      | 설명                |                                                           Badge                                                           |
+| :-------------: | :---------------- | :-----------------------------------------------------------------------------------------------------------------------: |
+|    **Figma**    | UI/UX 디자인 및 화면 설계 |             ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square\&logo=figma\&logoColor=white)            |
+|  **Photoshop**  | 이미지 편집 및 디자인 작업   |    ![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square\&logo=adobephotoshop\&logoColor=white)    |
+| **Illustrator** | 아이콘 및 그래픽 디자인     | ![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square\&logo=adobeillustrator\&logoColor=white) |
+
+---
 
 ### 4. 개발 도구
 
-|사용기술 | 설명 | Badge | 
-| :---:| :---: | :---: |
-| **Visual Studio Code (VS Code)** | **코드 편집기( 에디터 )** |![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0LjAwMyAyTDEyIDEzLjMwM0w0Ljg0IDhMMiAxMEw4Ljc3MiAxNkwyIDIyTDQuODQgMjRMMTIgMTguNzAyTDI0LjAwMyAzMEwzMCAyNy4wODdWNC45MTNMMjQuMDAzIDJaTTI0IDkuNDM0VjIyLjU2NkwxNS4yODkgMTZMMjQgOS40MzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white) |
-|**GitHub** | **버전 관리** |![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)| 
-| **Vercel** | **서버리스 플랫폼** |![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)|
-| **Figma** | **디자인 & UI/UX**|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white) |
+|          사용기술          | 설명              |                                                      Badge                                                      |
+| :--------------------: | :-------------- | :-------------------------------------------------------------------------------------------------------------: |
+| **Visual Studio Code** | 코드 편집 및 개발 환경   | ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square\&logo=visualstudiocode\&logoColor=white) |
+|       **GitHub**       | 프로젝트 버전 관리 및 협업 |      ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)      |
 
 
 ## 📚 프로젝트 문서 자료
 
 | 문서종류 | 파일명 | 설명 |
 | :---:| :---: | :---: |
-| 화면설계 | [화면설계.pdf](https://github.com/yeonhee001/ripo/blob/main/work/semi%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_B%ED%8C%80_01%EA%B8%B0%ED%9A%8D%2C%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84.pdf) | 주요 페이지의 화면 구성, 사용자 흐름 등 와이어프레임 기반 설계 자료 |
-| 디자인 | [디자인.pdf](https://github.com/yeonhee001/ripo/blob/main/work/semi%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_B%ED%8C%80_02%EB%94%94%EC%9E%90%EC%9D%B8.pdf) | Figma로 작업한 디자인 시안. 색상, 폰트, UI 요소 등 자료 |
-| 발표자료 | [발표자료.pdf](https://github.com/yeonhee001/ripo/blob/main/work/semi%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_B%ED%8C%80_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf) | 팀 프로젝트 발표용 슬라이드 자료 |
-| 완료 보고서 | [완료보고서.pdf](https://github.com/yeonhee001/ripo/blob/main/work/semi%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_B%ED%8C%80_%EC%99%84%EB%A3%8C%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf) | 프로젝트 진행 결과 요약 등 최종 보고 |
+| 기획서 | [기획서.pdf](https://github.com/user-attachments/files/26004173/B.Weather.Mood.pdf) | 프로젝트의 목적, 서비스 개요, 주요 기능 및 기획 내용을 정리한 문서 |
+| 화면설계 | [화면설계.pdf](https://github.com/user-attachments/files/26004169/B.Weather.Mood.pdf) | 주요 페이지의 화면 구성, 사용자 흐름 등 와이어프레임 기반 설계 자료 |
+| 디자인 | [디자인.pdf](https://github.com/user-attachments/files/26004457/Frame.7459.pdf)| Figma로 작업한 디자인 시안. 색상, 폰트, UI 요소 등 자료 |
+| 발표자료 | [발표자료.pdf](https://github.com/user-attachments/files/26004177/B.Weather.Mood.pdf) | 팀 프로젝트 발표용 슬라이드 자료 |
 
 
 ## 💾 프로젝트 저장소
 프론트엔드와 서버 소스 코드는 별도의 저장소로 분리되어있습니다.
-* [서버 저장소 바로가기](https://github.com/yeonhee001/php-ripoServer.git)
+* [서버 저장소 바로가기](https://github.com/duajd3-lab/Weather-Mood)
 
 
-# 소연희의 개발 상세
+# 📌 개발 상세 
 
-## 📑 요약
-* 담당
-  * 스플래시 화면 구현
-  * 로그인/로그아웃 기능 구현
-  * 회원가입 기능 구현
-  * 마이페이지 구성 및 주문 내역 표시
-  * 장바구니 기능 구현(선택/전체 삭제, 금액 계산 등)
-  * 결제 및 결제 완료 페이지 구현
-* 담당 컴포넌트 상세
-  * Splash.jsx <br/>
-    → 첫 방문 시 로고와 로딩 애니메이션을 보여주는 스플래시 화면 구현
-  * Login.jsx <br/>
-    → 사용자 로그인 기능 구현 및 로그인 성공 시 세션 유지 처리 <br/>
-    → Axios를 통해 로그인 상태를 확인
-  * Signup.jsx <br/>
-    → 기본 정보 입력을 통한 회원가입 처리 <br/>
-    → 회원가입 폼 제출 시 Axios로 서버에 데이터 전송 (PHP로 MySQL DB에 저장)
-  * CartList.jsx <br/>
-    → 장바구니에 담긴 상품 데이터를 PHP에서 불러와 렌더링 <br/>
-    → 체크박스를 통한 선택 상품만 결제 가능하며, 선택/삭제 요청 시 서버로 삭제 요청 전송 <br/>
-    → 총 금액 계산은 프론트에서 자동 처리
-  * Pay.jsx <br/>
-    → 선택한 상품 결제 진행 화면으로 주문 정보 입력 및 확인 처리 <br/>
-    → PHP 서버에서 주문 정보 저장 처리
-  * PayDone.jsx <br/>
-    → 결제 완료 후 안내 메시지를 표시하는 화면 구현
-  * My.jsx <br/>
-    → 로그인된 사용자 정보를 서버에서 불러와 사용자 이름, 아이디를 마이페이지 상단에 렌더링 <br/>
-    → 주문 내역 확인, 자주 묻는 질문 등을 제공하는 마이페이지 구현
-  * OrderList.jsx <br/>
-    → 사용자의 주문 내역을 PHP서버에서 불러와 화면에 표시
- 
-## 🧩 공통 컴포넌트 제작
-* 📜AgreeCheck.jsx - 약관 동의나 상품 선택 시 사용하는 체크박스 컴포넌트
-* 📜AlertBtn1.jsx - 버튼이 1개인 팝업창으로, 사용자 확인이 필요한 상황에 사용되는 컴포넌트
-* 📜AlertBtn2.jsx - 버튼이 2개인 팝업창으로, 확인/취소 등 선택이 필요한 경우에 사용되는 컴포넌트
-* 📜BtnLong.jsx - 페이지 하단 또는 주요 작업에 사용하는 긴 버튼 형태의 컴포넌트
-* 📜BtnShort.jsx - 두 가지 선택지에서 사용되는 짧은 버튼 형태의 컴포넌트
-* 📜DataLoading.jsx - 데이터 로딩 중 표시되는 공통 로딩 컴포넌트
-* 📜InfoMessage.jsx - 안내 문구 또는 데이터가 없을 때 표시되는 메시지 컴포넌트
-* 📜PayDoneBar.jsx - 결제 완료 등의 페이지 상단에 부제목 형태로 사용되는 컴포넌트
-* 📜PayProductItem.jsx - 결제 및 주문내역 화면에서 상품 정보를 보여주는 카드형태의 아이템 컴포넌트
-* 📜ProductPrice.jsx - 장바구니 및 결제페이지에서 상품 가격 정보를 표시하는 컴포넌트
+# 👨‍💻 담당 페이지 및 기능 구현
 
+# 🏠 메인 페이지 (Home)
+
+### 온보딩(성별 선택) 기능 구현
+- 최초 방문 시 성별 선택 온보딩 화면 표시
+- `LocalStorage`에 저장된 `gender` 값을 확인하여 이전 선택 기록이 있을 경우 바로 메인 화면으로 이동
+- 성별 선택 후 확인 버튼 클릭 시 LocalStorage에 저장
+
+### 배경 테마 설정 기능
+- 설정 페이지에서 선택한 배경 테마를 메인 화면에 적용
+- `LocalStorage(bgc)`에 저장된 값을 불러와 배경 스타일 적용
+- 다양한 그라디언트 배경을 객체 형태로 관리하여 동적으로 변경
+
+### 날씨 배경 애니메이션
+- 날씨 상태에 따라 비 또는 눈 애니메이션 표시
+- `createElement()`로 비/눈 요소를 동적으로 생성
+- 랜덤 애니메이션 시간과 딜레이 적용
+
+### 기온 및 성별 기반 캐릭터 변경
+- 현재 기온과 성별 정보를 기반으로 캐릭터 코디 이미지 변경
+- JSON(`index.json`) 데이터에서 기온 범위에 맞는 코디 조회
+- 성별에 맞는 캐릭터 이미지를 화면에 렌더링
+
+### 날씨 기반 추천 아이템 표시
+- 날씨 상태, 기온, 미세먼지 상태를 종합적으로 판단하여 추천 아이템 표시
+- 비 / 눈 → 우산 안내
+- 미세먼지 나쁨 → 마스크 안내
+- 기온 → 활동 및 힐링 콘텐츠 추천
+
+### 날씨 상태 3D 아이콘 표시
+- 현재 날씨 상태에 따라 메인 화면의 3D 날씨 아이콘 변경
+- `skyText` 값을 기준으로 해당 아이콘 활성화
+
+---
+
+# 🌤 날씨 정보 페이지 (Weather)
+
+## 현재 날씨 정보
+
+### 현재 날씨 표시
+- 기상청 초단기 실황 API(`getUltraSrtNcst`) 사용
+- 기온(T1H), 습도(REH), 풍속(WSD), 강수량(RN1), 강수 형태(PTY), 하늘 상태(SKY) 표시
+- 강수 형태가 존재할 경우 하늘 상태보다 우선 적용
+- 강수량 1mm 미만일 경우 UI에서는 최소 1mm로 표시
+
+### 날씨 자동 갱신
+- `setInterval()`을 사용하여 30분마다 자동 갱신
+- API 기준 시간에 맞도록 base_time 계산 로직 구현
+
+---
+
+## 시간별 날씨 예보 (24시간)
+
+- 기상청 단기예보 API(`getVilageFcst`) 사용
+- 현재 시간 이후 최대 24시간 예보 표시
+- 기온(TMP), 강수확률(POP), 하늘 상태(SKY), 강수 형태(PTY) 표시
+
+### 시간별 날씨 UI
+- Swiper.js를 활용한 슬라이드 형태 UI
+- 날씨 아이콘 / 기온 / 강수확률 / 시간 정보 표시
+
+---
+
+## 주간 날씨 예보
+
+### 단기 예보 (1~4일)
+- 하루 데이터를 순회하여 최저 / 최고 기온 계산
+- 오전 / 오후 기준 대표 날씨 표시
+
+### 중기 예보 (5~7일)
+- 중기 육상예보 API(`getMidLandFcst`)
+- 중기 기온 API(`getMidTa`)
+- 5~7일 날씨 상태 및 최저/최고 기온 표시
+
+### 날짜 자동 계산
+- `Date` 객체를 활용하여 오늘 기준 7일 날짜 생성
+- 요일 및 날짜 자동 표시
+
+---
+
+# 🌫 미세먼지 정보
+
+### 대기질 데이터 호출
+- 환경부 API(`getMsrstnAcctoRltmMesureDnsty`)
+- 측정소 기준 : 의정부동
+- PM10 / PM2.5 데이터 표시
+
+### 미세먼지 등급 표시
+
+| 등급 | 상태 |
+|-----|-----|
+|1|좋음|
+|2|보통|
+|3|나쁨|
+|4|매우 나쁨|
+
+- 등급에 따라 색상 및 아이콘 변경
+
+### API 호출 제한 대응
+- 최소 10분 호출 제한
+- `isFetching` 상태 관리
+- 요청 제한 발생 시 자동 재시도
+
+---
+
+# 🌅 일출 · 일몰 정보
+
+### 일출 / 일몰 API
+- 천문 API(`RiseSetInfoService`) 사용
+
+### 태양 위치 애니메이션
+- SVG 반원 그래프 활용
+- 일출~일몰 기준 태양 이동 애니메이션 구현
+
+### 자정 자동 데이터 갱신
+- 자정이 되면 다음 날짜 데이터 자동 호출
+
+---
+
+# 🌙 달 위상 정보
+
+### 달 위상 API
+- 천문 API(`LunPhInfoService`) 사용
+
+### 달 밝기 계산
+- `lunAge` 값을 기준으로 달 밝기 계산
+
+### 달 위상 표시
+- 신월
+- 초승달
+- 상현달
+- 차오르는 달
+- 보름달
+- 기우는 달
+- 하현달
+- 그믐달
+
+### UI 표시
+- moon-phase 웹 컴포넌트 활용
+
+---
+
+# 👕 코디 추천 페이지
+
+### 코디 추천 기능
+- 현재 기온을 기준으로 계절 자동 판단
+- JSON(`codi.json`) 데이터를 활용하여 성별 / 스타일 / 계절 코디 추천
+
+### 스타일 필터 기능
+- 스타일 버튼 클릭 시 active 클래스 적용
+- 선택된 스타일 코디만 필터링하여 표시
+
+### 코디 상세 모달
+- 코디 이미지 클릭 시 모달창 표시
+- `data-top`, `data-bottom` 속성을 활용하여 상의 / 하의 정보 출력
+
+### 코디 스크랩 기능
+- 모달창에서 별 아이콘 클릭 시 스크랩
+- LocalStorage(`scrapList`)에 코디 ID 저장
+
+---
+
+# ⭐ 코디 스크랩 보관함
+
+### 코디 스크랩 데이터 로딩
+- LocalStorage(`scrapList`)에서 스크랩 ID 불러오기
+- `codi.json` 데이터와 비교하여 필터링
+
+### 스타일 필터
+- 선택된 스타일 코디만 표시
+
+### 코디 상세 모달
+- 코디 상세 정보 표시
+
+### 스크랩 해제
+- 별 아이콘 클릭 시 스크랩 제거
+
+---
+
+# 🎵 음악 추천 페이지
+
+### 날씨 기반 음악 추천
+- 날씨 상태와 기온을 기준으로 플레이리스트 추천
+- JSON(`mood-playlist.json`) 데이터를 Fetch API로 로드 후 필터링
+
+### Swiper 플레이리스트 UI
+- 음악 카드 슬라이드 구현
+- 페이지네이션 적용
+
+### 활동 추천 기능
+- 날씨 상태와 기온 기준 활동 추천
+
+### 플레이리스트 모달
+- 음악 카드 클릭 시 상세 모달 표시
+- 제목 / 설명 / 외부 링크 표시
+
+### 플레이리스트 스크랩
+- 별 아이콘 클릭 시 플레이리스트 저장
+- LocalStorage(`moodList`)에 ID 저장
+
+---
+
+# 🎧 음악 스크랩 보관함
+
+### 음악 데이터 로딩
+- LocalStorage(`moodList`)에서 스크랩 ID 불러오기
+- JSON 데이터 필터링
+
+### 플레이리스트 목록
+- 카드 UI 형태로 출력
+- 저장된 음악이 없을 경우 안내 메시지 표시
+
+### 모달 기능
+- 플레이리스트 상세 정보 표시
+
+### 스크랩 해제
+- 별 아이콘 클릭 시 스크랩 제거
+
+---
+
+# ⚙ 공통 기능
+
+### 스플래시 애니메이션
+- `sessionStorage` 활용
+- 최초 방문 시에만 실행
+
+### 네비게이션 바
+- `dataset.url` 기반 페이지 이동
+- 현재 페이지 active 표시
+
+### 뒤로가기 버튼
+- `history.back()` 활용
+
+### 날씨 자동 갱신
+- 10분마다 날씨 데이터 업데이트
+- `visibilitychange` 이벤트로 비활성 탭 최적화
+
+### LocalStorage 데이터 관리
+- 사용자 설정
+- 스크랩 데이터
+- 날씨 데이터 공유
+
+---
+
+# 🛠 사용 기술 (Tech Stack)
+
+- HTML
+- CSS
+- JavaScript
+- Fetch API
+- JSON 데이터 관리
+- LocalStorage
+- SessionStorage
+- Swiper.js
+- SVG 애니메이션
+- 기상청 공공데이터 API
+- 환경부 대기질 API
+- 천문 API
   
 ## 💥 트러블 슈팅
 
-### 📌 CartList.jsx
+### 📌 Background 애니메이션 재실행 문제
 
- 1. 장바구니에서 개별 상품을 삭제할 경우에는 화면에서 바로 반영되었으나, 여러 상품을 선택한 후 "선택 삭제" 버튼을 클릭하면 화면에 삭제된 결과가 즉시 반영되지 않는 이슈 발생
-  
-    *선택 삭제 후 checkItems 상태를 cartList 기준으로 초기화했지만 즉각 반영되지 않음
-       
-    ⇒ **해결방법**: 해당 문제를 해결하기 위해 삭제 요청이 완료된 후 서버에서 장바구니 데이터를 다시 받아와 cartList와 checkItems 상태를 갱신하도록 처리 <br/>
+**❗ 문제**  
+카테고리를 이동할 때마다 배경 애니메이션이 다시 실행되어 메인 콘텐츠와 배경의 경계가 불명확해지는 문제가 발생했습니다.
 
- 2. 사용자가 장바구니에서 "결제하기" 버튼을 클릭하지 않고 결제 페이지에서 브라우저의 뒤로가기를 누르면, 장바구니에서 상품이 사라지는 이슈 발생
-  
-    *결제 페이지 진입 시점에 장바구니 상태가 비워지는 로직이었음
-       
-    ⇒ **해결방법**: 이를 방지하기 위해 "결제하기" 버튼을 클릭한 시점에만 결제 페이지로 이동되도록 처리하여, 뒤로가기로 인한 장바구니 유실 방지 <br/>
+**🔍 원인**  
+페이지 이동 시 애니메이션 클래스가 계속 다시 적용되면서 배경 애니메이션이 반복적으로 실행되고 있었습니다.
 
-### 📌 Pay.jsx
+**🛠 해결 방법**
 
- 1. 상품 디테일 페이지에서 "구매하기" 버튼을 클릭하면, 결제 페이지에서 총 상품 금액이 실제보다 높게 표시되는 이슈 발생
-  
-    *p_price 값이 이미 수량(ea)이 곱해진 상태였는데, 결제 페이지에서 다시 한 번 * ea를 해버려 중복 계산 발생
-       
-    ⇒ **해결방법**: 이 문제를 해결하기 위해 총 금액 계산 시 * ea를 제거하였고, 금액 정보는 let product = [] 형태로 전달하지 않고 상태값으로 관리하도록 수정, Number()를 사용해 전달된 값들이 정확히 숫자형으로 인식되도록 하여 금액 계산에 오류가 없도록 보완 <br/>
+- 애니메이션 시작 / 종료 클래스를 분리
+- `sessionStorage`를 활용하여 애니메이션 실행 여부 저장
 
-### 📌 OrderList.jsx
+**✅ 결과**  
+페이지 최초 접속 시에만 애니메이션이 실행되도록 개선하여 불필요한 애니메이션 반복 실행을 방지했습니다.
 
- 1. 주문내역 페이지에서 특정 상품을 클릭하면 해당 상품의 상세 페이지로 이동하도록 구현했지만, 이때 type 값이 전달되지 않아 상세 페이지에서 해당 상품 정보가 정확히 매칭되지 않는 이슈 발생
-  
-    *orders 테이블에 상품의 cat_id(카테고리 ID)를 저장하지 않아 어떤 타입인지 알 수 없었음
-       
-    ⇒ **해결방법**: 이를 해결하기 위해 orders.php에 cat_id 컬럼을 추가하고, postData 함수에서 해당 값을 함께 저장하도록 수정, 이후 type을 정상적으로 전달받아 상세 페이지 이동 시 상품이 제대로 로드되도록 처리 <br/>
+---
 
-### 📌 PayProductItem.jsx
+### 📌 음악 추천 랜덤 데이터 중복 문제
 
- 1. 결제 페이지와 주문내역 페이지에서 동일한 상품 컴포넌트를 사용하고 있는데, 결제 페이지에서는 상품을 클릭해도 상세 페이지로 이동하면 안 되며, 주문내역에서는 이동이 되어야 하는 이슈 발생
-  
-    *클릭 동작이 공통 컴포넌트에 항상 활성화되어 있어 모든 페이지에서 작동하고 있었음
-       
-    ⇒ **해결방법**: 이를 해결하기 위해 컴포넌트에 click prop을 추가하고 기본값을 false로 설정, 주문내역 페이지에서는 click={true}로 전달하여 해당 페이지에서만 상품 클릭 시 상세 페이지로 이동하도록 분기 처리 <br/>
-=======
-# WeatherMood
->>>>>>> 3fc57e0e3c0264ae089f6ceffd7468c0cce7b14e
+**❗ 문제**  
+오늘의 무드 음악 추천 기능에서 카테고리별 음악을 랜덤으로 출력할 때 동일한 음악이 여러 번 추천되는 문제가 발생했습니다.
+
+**🔍 원인**  
+모든 카테고리를 `forEach`로 순회하면서 랜덤 값을 추출하는 과정에서 동일한 데이터가 선택될 가능성이 있었습니다.
+
+**🛠 해결 방법**
+
+- 카테고리를 각각의 배열로 분리
+- 각 배열에서 랜덤 데이터를 추출
+- 마지막에 하나의 배열로 병합
+
+**✅ 결과**  
+카테고리별로 중복 없이 음악이 추천되도록 개선되었습니다.
+
+---
+
+### 📌 온보딩 페이지 성별 선택 검증 문제
+
+**❗ 문제**  
+온보딩 화면에서 성별을 선택하지 않아도 확인 버튼을 클릭하면 메인 페이지로 이동하는 문제가 발생했습니다.
+
+**🔍 원인**  
+확인 버튼 클릭 시 성별 값이 선택되었는지 확인하는 검증 로직이 구현되어 있지 않았습니다.
+
+**🛠 해결 방법**
+
+- 버튼 클릭 시 `selectedGender` 값 존재 여부 확인
+- 값이 없을 경우 페이지 이동 제한
+
+**✅ 결과**  
+사용자가 성별을 선택해야만 다음 페이지로 이동할 수 있도록 정상적인 입력 검증이 동작하게 되었습니다.
+
+---
+
+### 📌 메인 페이지 초기 데이터 출력 문제
+
+**❗ 문제**  
+성별 선택 후 메인 페이지로 이동했을 때 날씨 정보와 캐릭터 등의 데이터가 바로 출력되지 않는 문제가 발생했습니다.
+
+**🔍 원인**  
+데이터를 불러오는 함수가 페이지 하단에서 실행되고 있어 초기 렌더링 시 데이터가 늦게 출력되었습니다.
+
+**🛠 해결 방법**
+
+- 페이지 로드 시 데이터 로딩 함수가 실행되도록 상단에서 호출하도록 수정
+
+**✅ 결과**  
+메인 페이지 진입 시 날씨 정보와 캐릭터 데이터가 즉시 표시되도록 개선되었습니다.
+
+---
+
+### 📌 네비게이션 아이콘 색상 변경 문제
+
+**❗ 문제**  
+네비게이션 아이콘을 `img` 태그로 사용하였을 때 페이지 활성화 상태에 따라 아이콘 색상을 변경하기 어려운 문제가 발생했습니다.
+
+**🔍 원인**  
+이미지 파일은 CSS로 색상을 직접 변경하기 어렵기 때문에 원하는 색상 제어가 제한되었습니다.
+
+**🛠 해결 방법**
+
+- 아이콘을 이미지 파일 대신 **SVG 태그**로 변경
+- `fill` 속성을 통해 색상 제어
+
+**✅ 결과**  
+네비게이션 활성화 상태에 따라 아이콘 색상이 정상적으로 변경되도록 개선되었습니다.
+
+---
+
+### 📌 보관함 페이지 레이아웃 문제
+
+**❗ 문제**  
+스크랩된 데이터가 있는 경우와 없는 경우에 컨테이너의 width 값이 달라져 레이아웃이 깨지는 문제가 발생했습니다.
+
+**🔍 원인**  
+동일한 컨테이너에 `innerHTML`로 콘텐츠를 삽입하면서 스크랩 데이터 유무에 따른 레이아웃을 제대로 처리하지 못했습니다.
+
+**🛠 해결 방법**
+
+- 스크랩 데이터 상태에 따라 별도의 컨테이너 생성
+- 각각 다른 레이아웃 적용
+
+**✅ 결과**  
+스크랩 데이터 유무와 관계없이 페이지 레이아웃이 안정적으로 유지되도록 개선되었습니다.
+
+---
+
+### 📌 스타일별 코디 삭제 오류
+
+**❗ 문제**  
+여러 스타일의 코디가 스크랩된 상태에서 특정 스타일의 코디를 모두 삭제하면 다른 스타일의 코디가 화면에 표시되는 문제가 발생했습니다.
+
+**🔍 원인**  
+코디 삭제 후 현재 선택된 스타일 기준으로 데이터를 다시 불러오는 로직이 구현되어 있지 않았습니다.
+
+**🛠 해결 방법**
+
+- 모달이 닫힐 때 현재 선택된 스타일 기준으로 데이터를 다시 불러오는 함수 실행
+
+**✅ 결과**  
+코디 삭제 이후에도 현재 선택된 스타일의 데이터가 정상적으로 유지되도록 개선되었습니다.
+
+---
+
+### 📌 코디 상세 페이지 스크랩 상태 초기화 문제
+
+**❗ 문제**  
+코디 상세 모달을 닫았다가 다시 열면 스크랩 상태가 초기화되는 문제가 발생했습니다.
+
+**🔍 원인**  
+UI 상태와 `localStorage`에 저장된 스크랩 데이터가 동기화되지 않았습니다.
+
+**🛠 해결 방법**
+
+- 모달이 열릴 때 `localStorage` 스크랩 데이터를 확인
+- 현재 아이템의 스크랩 여부를 판단하여 상태 반영
+
+**✅ 결과**  
+모달을 다시 열어도 스크랩 상태가 유지되도록 개선되었습니다.
+
+---
+
+### 📌 주간 날씨 데이터 구조 처리 문제
+
+**❗ 문제**  
+단기 예보와 중기 예보의 데이터 구조가 서로 달라 동일한 방식으로 데이터를 처리하기 어려운 문제가 발생했습니다.
+
+**🔍 원인**
+
+- 단기 예보 → 시간 단위 데이터 제공  
+- 중기 예보 → 날짜 요약 데이터 제공  
+
+두 API의 데이터 구조가 서로 달랐습니다.
+
+**🛠 해결 방법**
+
+- 단기 예보 → 시간별 데이터를 순회하여 온도 데이터 추출 및 최저·최고 기온 계산
+- 중기 예보 → 별도의 API 호출을 통해 날짜별 데이터 처리
+
+**✅ 결과**  
+단기 예보와 중기 예보 데이터를 각각에 맞는 방식으로 처리하여 주간 날씨 정보를 정상적으로 표시할 수 있었습니다.
+
+---
+
+### 📌 대기질 API 호출 제한 문제
+
+**❗ 문제**  
+대기질 API 호출 시 **429 (Too Many Requests)** 오류가 발생했습니다.
+
+**🔍 원인**  
+페이지 새로고침 시 API가 반복적으로 호출되어 요청 횟수 제한에 걸렸습니다.
+
+**🛠 해결 방법**
+
+- API 호출 간격 제한 로직 추가
+- 중복 요청 방지 상태 관리
+- 429 오류 발생 시 일정 시간 이후 재요청
+
+**✅ 결과**  
+불필요한 API 호출을 줄이고 안정적으로 데이터를 불러올 수 있도록 개선되었습니다.
