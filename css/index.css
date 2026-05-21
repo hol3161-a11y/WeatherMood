@@ -1,0 +1,578 @@
+@import url('./common/common.css');
+
+.app {
+    position: relative;
+}
+
+
+
+/* ========================메인 현재날씨========================== */
+.main {
+    background: linear-gradient(to bottom, #CFFFF1 0%, #00CE93 77%, #12A77C 100%);
+    height: 100%;
+    padding: 0 21px;
+}
+
+.mainHeader {min-height: 180px;}
+
+.mainCurrentWeather {
+    text-align: center;
+    padding-top: 76px;
+}
+
+.mainCurrentWeather h3 {
+    font-size: 60px;
+}
+
+.mainCurrentWeather p:nth-of-type(1) {
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+
+}
+
+.mainCurrentWeather p:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.mainSetting {
+    position: absolute;
+    top: 76px;
+    right: 21px;
+}
+
+
+/* =========================중간컨텐츠======================== */
+
+.contents {}
+
+.weather {position:relative;width: 300px;}
+.weather >div{display: none;}
+.weather >div.active{display: block;}
+
+/* ========비======= */
+
+.cloud {
+    position: absolute;
+    width: 300px;
+    margin-left: 70px;
+    z-index: 2;
+}
+
+.rain_drop-container {
+    /* 물방울들 움직일 영역 */
+    position:absolute;
+    top:120px;
+    margin-left:180px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.drop {
+    position: absolute;
+    width: 12px;
+    animation: rain 0.3s ease-in infinite;
+}
+
+@keyframes rain {
+    from {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+}
+
+/* =================예원 cloud css =================== */
+
+.cloud-front {
+    width: 240px;
+    position: absolute;
+    margin-left: 70px;
+    top: 5px;
+    z-index: 2;
+    animation: cloudFrontMove 12s ease-in-out infinite;
+    filter: blur(0px);
+}
+
+.cloud-back {
+    width: 280px;
+    position: absolute;
+    margin-left: 130px;
+    top: 15px;
+    opacity: 0.6;
+    filter: blur(1px);
+    z-index: 1;
+    animation: cloudBackMove 12s ease-in-out infinite;
+    filter: blur(2px);
+    opacity: 0.8;
+}
+
+
+/* 앞 구름 (조금 더 움직임) */
+@keyframes cloudFrontMove {
+
+    0% {
+        transform: translateX(0x) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(80px) translateY(1px);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0px);
+    }
+}
+
+
+/* 뒤 구름 (더 느리고 작게 움직임) */
+@keyframes cloudBackMove {
+
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(-10px) translateY(-1px);
+    }
+
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+
+
+
+/* =================예원 snow css =================== */
+.snow {
+    width: 300px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+
+.snow1,
+.snow2,
+.snow3,
+.snow4 {
+    position: absolute;
+    width: 30px;
+    top: 150px;
+    animation: snowFall linear infinite;
+    opacity: 0;
+}
+
+
+.snow1 {
+    left: 80%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+.snow2 {
+    width: 25px;
+    left: 65%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.snow3 {
+    width: 20px;
+    left: 97%;
+    animation-duration: 3.5s;
+    animation-delay: 0.5s;
+}
+
+.snow4 {
+    left: 87%;
+    animation-duration: 4.2s;
+    animation-delay: 1.5s;
+}
+
+
+@keyframes snowFall {
+    0% {
+        transform: translateY(0px) translateX(0px);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(80px) translateX(-5px);
+    }
+
+    100% {
+        transform: translateY(150px) translateX(5px);
+        opacity: 0;
+    }
+}
+
+/* sun - 나영 */
+.weatherSun img{
+    width: 180px;
+    position: absolute;
+    margin-left: 160px;
+    animation: sunRotate 10s linear infinite;
+}
+@keyframes sunRotate{
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+
+/* cloudy - 나영 */
+.cloud2 {
+    position:absolute;
+    width: 290px;
+    right:-55px;
+    bottom: -180px;
+    z-index:2;
+    animation: cloud2Rotate 5s ease-in-out infinite;
+}
+@keyframes cloud2Rotate{
+    0%{ transform: translateY(0);}
+    50%{ transform: translateY(-10px);}
+    100%{ transform: translateY(0);}
+} 
+
+.cloudy .cloudSun{
+    width: 110px;
+    margin-left: 230px;
+    position: absolute;
+    animation: cloudSun 13s linear infinite;
+}
+@keyframes cloudSun{
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+
+/* ==========비/눈============ */
+.cloud {
+    position:absolute;
+    width: 300px;
+margin-left:70px;
+z-index:2;
+}
+.rainSnow_drop-container{/* 물방울들 움직일 영역 */
+    position:absolute;
+    top:120px;
+    margin-left:180px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    
+}
+.drop{
+    position: absolute;
+    width: 12px;
+    animation:rain 0.3s ease-in infinite;
+}
+@keyframes rainSnow {
+    from{transform:translateY(-20px);
+    opacity:1;}
+    to{transform:translateY(200px);
+    opacity:0;}
+}
+
+/* sun - 나영 */
+.weatherSun img{
+    width: 180px;
+    position: absolute;
+    margin-left: 160px;
+    animation: sunRotate 10s linear infinite;
+}
+@keyframes sunRotate{
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+
+/* cloudy - 나영 */
+.cloud2 {
+    position:absolute;
+    width: 290px;
+    right:-55px;
+    bottom: -180px;
+    z-index:2;
+    animation: cloud2Rotate 5s ease-in-out infinite;
+}
+@keyframes cloud2Rotate{
+    0%{ transform: translateY(0);}
+    50%{ transform: translateY(-10px);}
+    100%{ transform: translateY(0);}
+} 
+
+.cloudy .cloudSun{
+    width: 110px;
+    margin-left: 230px;
+    position: absolute;
+    animation: cloudSun 13s linear infinite;
+}
+@keyframes cloudSun{
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+
+.cloud-front {
+    width: 240px;
+    position: absolute;
+    margin-left: 70px;
+    top: 5px;
+    z-index: 2;
+    animation: cloudFrontMove 12s ease-in-out infinite;
+    filter: blur(0px);
+}
+
+.cloud-back {
+    width: 280px;
+    position: absolute;
+    margin-left: 130px;
+    top: 15px;
+    opacity: 0.6;
+    filter: blur(1px);
+    z-index: 1;
+    animation: cloudBackMove 12s ease-in-out infinite;
+    filter: blur(2px);
+    opacity: 0.8;
+}
+
+
+/* 앞 구름 (조금 더 움직임) */
+@keyframes cloudFrontMove {
+
+    0% {
+        transform: translateX(0x) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(80px) translateY(1px);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0px);
+    }
+}
+
+
+/* 뒤 구름 (더 느리고 작게 움직임) */
+@keyframes cloudBackMove {
+
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(-10px) translateY(-1px);
+    }
+
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+/* =================예원 snow css =================== */
+.snow {
+    width: 300px;
+    position: absolute;
+    margin-left: 70px;
+}
+
+
+.snow1,
+.snow2,
+.snow3,
+.snow4 {
+    position: absolute;
+    width: 30px;
+    top: 150px;
+    animation: snowFall linear infinite;
+    opacity: 0;
+}
+
+
+.snow1 {
+    left: 80%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+.snow2 {
+    width: 25px;
+    left: 65%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.snow3 {
+    width: 20px;
+    left: 97%;
+    animation-duration: 3.5s;
+    animation-delay: 0.5s;
+}
+
+.snow4 {
+    left: 87%;
+    animation-duration: 4.2s;
+    animation-delay: 1.5s;
+}
+
+
+@keyframes snowFall {
+    0% {
+        transform: translateY(0px) translateX(0px);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(80px) translateX(-5px);
+    }
+
+    100% {
+        transform: translateY(150px) translateX(5px);
+        opacity: 0;
+    }
+}
+
+/* =================메인 캐릭터=========================== */
+.character img {
+    position:relative;
+    z-index:3;
+    width: 250px;
+    margin-left:-20px;
+    margin-top:20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+/* =================메인 추천 아이템======================= */
+.item img {
+    width: 88px;
+    height: 88px;
+    margin-left:35px;
+    filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.1));
+}
+
+.item img span {}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background: #eeeeee;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    display: flex;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    position: absolute;
+    bottom: 15%;
+    right: 7%;
+}
+
+
+/* ==============================처음에만 성별 선택=========================== */
+.onboarding {
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 0 21px;
+    border-radius: 30px;
+}
+
+.onboarding section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.onboarding section>div {
+    padding-top: 76px;
+}
+
+.onboarding b {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.onboarding p {
+    font-size: 15px;
+    color: #515151;
+    padding-top: 32px;
+}
+
+.genderSelect {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.genderOption {}
+
+.genderOption input {
+    display: none;
+}
+
+.genderOption input:checked+span {
+    background-color: #8FEBD0;
+    border: 1.5px solid #00CE93;
+}
+
+/* span은 input의 자식이 아니라 형제이므로 '+' */
+
+.genderOption span {
+    padding: 13px 0;
+    border: 1.5px solid #EEEEEE;
+    text-align: center;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 12px;
+    width: 175px;
+}
+
+.onboarding button {
+    margin-top: auto;
+    margin-bottom: 40px;
+    background-color: #EEEEEE;
+    padding: 15px 0;
+    width: 359px;
+    border-radius: 40px;
+    color: #BDBDBD;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.onboarding button.active {
+    margin-top: auto;
+    margin-bottom: 40px;
+    background-color: #00CE93;
+    padding: 15px 0;
+    width: 359px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Pretendard', sans-serif;
+}

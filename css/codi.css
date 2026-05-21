@@ -1,0 +1,202 @@
+@import url('./common/common.css');
+
+.app2{
+    padding: 0 21px;
+}
+
+
+/* ------------- 코디 스타일 버튼 5가지 --------------- */
+.btn {
+    display: flex;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    gap:10px;
+
+}
+
+.btn>p {
+    width: 59px;
+    height: 27px;
+    border-radius: 23.5px;
+    /* background-color: rgb(238 238 238); */
+    border: 1px solid rgb(238 238 238);
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn p.active {
+    background-color: rgb(143, 235, 208);
+    border: 1px solid #00CE93;;
+}
+
+
+
+
+
+/* -------------- 코디 사진 -----------------  */
+.codi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: auto;
+    height: 510px;
+    scrollbar-width: none;
+    padding: 0 1px;  
+}
+
+.codi img { 
+    width: 174px;
+    height: 228px;
+    object-fit: cover;
+
+}
+
+.codi p {
+    margin: 0;
+}
+
+
+
+/* ------------ 코디 사진 팝업창 ------------- */
+aside {
+    width: 360px;
+    height: 580px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    justify-content: center;    
+      
+    /* display: none;   */
+    position: absolute;              
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+     z-index: 20000;
+    
+}
+aside > img{
+    width: 320px; height: 410px;
+    margin-left: 20px;
+    margin-top: 15px;    
+    object-fit: cover;
+    
+}
+aside p{
+    margin: 5px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+ aside .title span img{
+    width: 20px; height: 20px;
+}
+aside.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.title p:nth-of-type(1){
+    margin: 10px;
+    font-size: 14px;
+}
+
+
+
+.btn-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.btn-area a {
+    background:  rgb(143, 235, 208);
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 120px; height: 33px;
+    border-radius: 20px;
+    text-align: center;
+}
+.btn-area a img{
+    width:15px; height:15px;
+    margin: 0;
+}
+.btn-area button{
+    border: 1px solid rgb(143, 235, 208);
+    background-color: white;
+    color: black;
+    width: 120px; height: 33px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* 오버레이 */
+.overlay{
+    width: 100%;
+    height: 100%; 
+    left: 0; top: 0;
+    position: absolute;  
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin: 0;   
+    z-index: 110;
+    
+}
+
+.overlay.active,
+.modal.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal.active{
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal span {
+    margin-left: 21px;
+  
+}
+
+
+/* 별 */
+.modal .star-btn{
+  width: 20px;
+  height: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #bbb;
+  padding: 0;
+  
+}
+.modal .star-btn img {
+  
+  object-fit: contain;
+}
+
+.modal .star-btn.active{
+  color: rgb(143, 235, 208);
+  padding: 0; margin: 0;
+ 
+}
+
+
+

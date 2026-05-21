@@ -1,0 +1,56 @@
+{
+    "캐릭터옷":[
+            {"id":1, "min" : -50, "max": 4,
+            "img":{"m":"./image/index/누끼최종/Nardy_4.png","w": "./image/index/누끼최종/wendy_4.png" }
+        },
+            {"id":2,  "min": 5, "max": 8,  
+            "img":{"m":"./image/index/누끼최종/Nardy_5-8.png","w": "./image/index/누끼최종/wendy_5-8.png" } 
+        },
+            {"id":3, "min": 9, "max": 12, 
+            "img":{"m":"./image/index/누끼최종/Nardy_9-12.png","w": "./image/index/누끼최종/wendy_9-12.png" } 
+        },
+            {"id":4, "min": 13, "max": 16, 
+            "img":{"m":"./image/index/누끼최종/Nardy_13-16.png","w": "./image/index/누끼최종/wendy_13-16.png" } 
+        },
+            {"id":5, "min": 17, "max": 20, 
+            "img":{"m":"./image/index/누끼최종/Nardy_17-20.png","w": "./image/index/누끼최종/wendy_17-20.png" } 
+        },
+            {"id":6,  "min": 21, "max": 27, 
+            "img":{"m":"./image/index/누끼최종/Nardy_21-27.png","w": "./image/index/누끼최종/wendy_21-27.png" } 
+        },
+            {"id":7, "min":28, "max": 50,
+            "img":{"m":"./image/index/누끼최종/Nardy_28.png","w": "./image/index/누끼최종/wendy_28.png" } 
+        }
+    ],
+    "추천아이템":[
+        {"id":1, 
+        "skyText":"비",
+        "item":"item_rain.png",
+        "itemTxt":"비가 옵니다.",
+        "itemTxt2":"우산을 챙기세요!"
+    },
+        {"id":2, 
+        "skyText":"비",
+        "item":"item_dust.png",
+        "itemTxt":"미세먼지 주의!",
+        "itemTxt2":"마스크를 챙기세요!"
+    },
+        {"id":3, 
+        "min":33, "max":50,
+        "item":"item_hot.png",
+        "itemTxt":"매우 덥습니다.",
+        "itemTxt2":"손풍기를 챙기세요!"
+    },
+        {"id":4, 
+        "min":-50, "max":-5,
+        "item":"item_cold.png",
+        "itemTxt":"매우 춥습니다.",
+        "itemTxt2":"장갑을 챙기세요!"
+    },
+        {"id":5, 
+        "item":"item_headset.png",
+        "itemTxt":"활동하기에 너무",
+        "itemTxt2":"좋은 날씨네요!"
+    }
+    ]
+}

@@ -1,0 +1,199 @@
+/* animate */
+.ani .bg{animation: mask 1.5s ease-out forwards;}
+.ani .phone{ animation: phone 0.5s 0.5s forwards;}
+.ani .app{ animation: app 0.5s 0.5s forwards;transform: translateY(15%);
+    opacity: 0;}
+.ani .object > p > img:nth-of-type(1){animation: wendy 0.5s 1.7s forwards;}
+.ani .object > p > img:nth-of-type(2){animation: nardy 0.5s 1.5s forwards;
+}
+.ani .tool{animation: tool 0.5s 1s forwards;
+}
+.ani .talk p:nth-of-type(1){animation: talk01 5s 2.5s forwards; opacity: 0;}
+.ani .talk p:nth-of-type(2){animation: talk02 5s 3.5s forwards; opacity: 0;}
+.ani .talk p:nth-of-type(3){animation: talk03 5s 4.5s forwards; opacity: 0;}
+
+
+.complete .bg{-webkit-mask-position: 0% 0; mask-position: 0% 0;}
+.complete .phone{ opacity: 1; transform: translate(-50%,-45%);}
+.complete .app{ transform: translateY(5%); opacity: 1;}
+.complete .object > p > img:nth-of-type(1){transform: translateX(-130%); opacity: 1;}
+.complete .object > p > img:nth-of-type(2){transform: translateX(20%); opacity: 1;}
+.complete .tool{opacity: 1;}
+.complete .talk p:nth-of-type(1){opacity: 0;}
+.complete .talk p:nth-of-type(2){opacity: 0;}
+.complete .talk p:nth-of-type(3){opacity: 0;}
+
+
+.bg{margin: 0; padding: 0; width: 100%; height: 100vh;
+    background: url(../image/bg/BG-b.png) 0 0 / cover no-repeat fixed; 
+    display: flex; justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index:-1;
+
+    /* 마스크 설정 */
+    -webkit-mask-image: linear-gradient(to right, black 50%, transparent 50%);
+    mask-image: linear-gradient(to right, black 50%, transparent 50%);
+    -webkit-mask-size: 200% 100%;
+}
+    /* ease-out: 부드럽게 */
+
+/* 왼쪽에서 오른쪽으로 */
+@keyframes mask{
+    0% {
+        -webkit-mask-position: 100% 0;
+        mask-position: 100% 0;
+    }
+    100% {
+        -webkit-mask-position: 0% 0;
+        mask-position: 0% 0;
+    }
+}
+.bg-con{
+    position: absolute;
+    left:0; top:0;
+    width:100%;
+    text-align: center;
+}
+.bg-con h1{color: #00ce93; font-size:17vh; margin: 2% auto; font-weight: 100;}
+
+
+.ic{
+    font-family: 'Material Symbols Outlined';
+    display: inline-block;
+    vertical-align: middle;
+}
+.phone span:nth-last-child(1){font-size: 25px;}
+.top{
+    display: flex; gap: 3px; 
+    align-items: center;
+    justify-content: right;
+    padding: 13px 20px;
+}
+.top div{
+    background-color: black;
+    width: 180px; height: 25px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.phone{
+    width: 402px; height: 774px; 
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    position: absolute;
+    left:50%; top:50%;
+    margin-top: 0%;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    
+    opacity: 0;
+    transform: translate(-50%,-35%);
+}
+@keyframes phone{100%{opacity: 1; transform: translate(-50%,-45%);}}
+
+.app{
+    position:relative;
+    overflow: hidden;
+    transform: translateY(15%);
+    opacity: 0;
+}
+@keyframes app{100%{transform: translateY(5%); opacity: 1;}}
+
+
+/* ------------ 하단 오브젝트 ------------ */
+
+.object{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* 캐릭터 */
+.object > p > img:nth-of-type(1){
+    position: absolute;
+    height: 60vh; margin-top: 2vh;
+    transform: translateX(-50%);
+    
+    opacity: 0;
+}
+.object > p > img:nth-of-type(2){
+    position: absolute;
+    height: 50vh; margin-top: 15vh;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+@keyframes wendy{100%{transform: translateX(-130%); opacity: 1;}}
+@keyframes nardy{100%{transform: translateX(20%); opacity: 1;}}
+
+
+/* 툴 */
+.tool{
+    position: absolute;
+    transform: translate(85%, 150%);
+    top: 100%;
+    left: 0;
+    text-align: left;
+    opacity: 0;
+}
+@keyframes tool {100%{opacity: 1;}}
+
+.tool h2{
+    background-color: #00ce93;
+    padding: 0 10px;
+    display:inline;
+}
+.tool ul{
+    color: white; font-size:small; font-weight: lighter;
+    display: flex; gap: 20px; margin-bottom: 10px;
+}
+.tool ul img{height: 40px; margin-top: 20px;}
+
+.tool div span{
+    margin-right: 10px;
+    font-size:20px; 
+    font-weight: 650;
+}
+.tool div span:nth-of-type(1){color: #31a8ff; font-weight: 800; }
+.tool div span:nth-of-type(2){color: #f19a00; font-weight: 800; }
+.tool div span:nth-of-type(4),
+.tool div span:nth-of-type(5),
+.tool div span:nth-of-type(6){color: gray; }
+
+
+/* 대사 */
+.talk{position: absolute; }
+.talk p span{color: #00ce93; font-weight: 500; font-size: 35px;}
+.talk p{
+    padding: 20px;
+    color: white; font-weight: 100; font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);   
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); 
+    border-radius: 16px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+}
+
+/* .talk p:nth-of-type(1){}
+.talk p:nth-of-type(2){animation: talk02 5s 3.5s forwards; opacity: 0;}
+.talk p:nth-of-type(3){animation: talk03 5s 4.5s forwards; opacity: 0;} */
+
+
+@keyframes talk01{
+    0%{transform: translate(130%, 400%) scale(0); opacity: 0;}
+    10%{transform: translate(130%, 400%) scale(0.7); opacity: 1;}
+    70%{transform: translate(130%, 100%) scale(1);}
+    100%{opacity: 0;}
+}
+@keyframes talk02{
+    0%{transform: translate(-150%, 200%) scale(0); opacity: 0;}
+    10%{transform: translate(-150%, 200%) scale(0.7); opacity: 1;}
+    70%{transform: translate(-150%, 10%) scale(1);}
+    100%{opacity: 0;}
+}
+@keyframes talk03{
+    0%{transform: translate(130%, 200%) scale(0); opacity: 0;}
+    10%{transform: translate(130%, 200%) scale(0.7); opacity: 1;}
+    70%{transform: translate(130%, -20%) scale(1);}
+    100%{opacity: 0;}
+}

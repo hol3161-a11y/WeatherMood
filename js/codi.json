@@ -1,0 +1,1549 @@
+{
+  "m": {
+    "캐주얼": {
+      "봄": [
+        {
+          "id": "1",
+          "src": "./image/codi/남자 캐주얼/봄/img1.jpg",
+          "top": "체크셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "2",
+          "src": "./image/codi/남자 캐주얼/봄/img2.jpg",
+          "top": "브이넥 니트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "3",
+          "src": "./image/codi/남자 캐주얼/봄/img3.jpg",
+          "top": "체크셔츠",
+          "bottom": "버뮤다 데님 팬츠"
+        },
+        {
+          "id": "4",
+          "src": "./image/codi/남자 캐주얼/봄/img4.jpg",
+          "top": "후드티",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "5",
+          "src": "./image/codi/남자 캐주얼/봄/img5.jpg",
+          "top": "셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "6",
+          "src": "./image/codi/남자 캐주얼/봄/img6.jpg",
+          "top": "흰 티셔츠와 자켓",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "여름": [
+        {
+          "id": "7",
+          "src": "./image/codi/남자 캐주얼/여름/img1.jpg",
+          "top": "검정 기본티",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "8",
+          "src": "./image/codi/남자 캐주얼/여름/img2.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "9",
+          "src": "./image/codi/남자 캐주얼/여름/img3.jpg",
+          "top": "흰 기본티",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "10",
+          "src": "./image/codi/남자 캐주얼/여름/img4.jpg",
+          "top": "체크 긴팔 셔츠",
+          "bottom": "버뮤다 데님 팬츠"
+        },
+        {
+          "id": "11",
+          "src": "./image/codi/남자 캐주얼/여름/img5.jpg",
+          "top": "체크 셔츠",
+          "bottom": "버뮤다 데님 팬츠"
+        },
+        {
+          "id": "12",
+          "src": "./image/codi/남자 캐주얼/여름/img6.png",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "13",
+          "src": "./image/codi/남자 캐주얼/가을/img1.jpg",
+          "top": "체크셔츠와 데님자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "14",
+          "src": "./image/codi/남자 캐주얼/가을/img2.jpg",
+          "top": "맨투맨과 야구 점퍼",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "15",
+          "src": "./image/codi/남자 캐주얼/가을/img3.png",
+          "top": "흰 티셔츠와 가디건",
+          "bottom": "트레이닝 바지"
+        },
+        {
+          "id": "16",
+          "src": "./image/codi/남자 캐주얼/가을/img4.png",
+          "top": "후드티",
+          "bottom": "스웨이드 바지"
+        },
+        {
+          "id": "17",
+          "src": "./image/codi/남자 캐주얼/가을/img5.jpg",
+          "top": "셔츠와 가디건 레이어드",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "18",
+          "src": "./image/codi/남자 캐주얼/가을/img6.png",
+          "top": "후드티와 가죽자켓",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "19",
+          "src": "./image/codi/남자 캐주얼/겨울/img1.jpg",
+          "top": "후드티와 패딩",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "20",
+          "src": "./image/codi/남자 캐주얼/겨울/img2.jpg",
+          "top": "가죽자켓과 목도리",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "21",
+          "src": "./image/codi/남자 캐주얼/겨울/img3.jpg",
+          "top": "후리스",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "22",
+          "src": "./image/codi/남자 캐주얼/겨울/img4.jpg",
+          "top": "맨투맨와 경량패딩",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "23",
+          "src": "./image/codi/남자 캐주얼/겨울/img5.jpg",
+          "top": "무스탕",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "24",
+          "src": "./image/codi/남자 캐주얼/겨울/img6.jpg",
+          "top": "코트와 목도리",
+          "bottom": "데님 팬츠"
+        }
+      ]
+    },
+    "스트릿": {
+      "봄": [
+        {
+          "id": "25",
+          "src": "./image/codi/남자 스트릿/봄/img1.jpg",
+          "top": "가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "26",
+          "src": "./image/codi/남자 스트릿/봄/img2.jpg",
+          "top": "후드티",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "27",
+          "src": "./image/codi/남자 스트릿/봄/img3.jpg",
+          "top": "바람막이",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "28",
+          "src": "./image/codi/남자 스트릿/봄/img4.jpg",
+          "top": "투웨이 후드집업",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "29",
+          "src": "./image/codi/남자 스트릿/봄/img5.jpg",
+          "top": "체크셔츠",
+          "bottom": "팬츠"
+        },
+        {
+          "id": "30",
+          "src": "./image/codi/남자 스트릿/봄/img6.jpg",
+          "top": "체크셔츠와 자켓",
+          "bottom": "팬츠"
+        }
+      ],
+      "여름": [
+        {
+          "id": "31",
+          "src": "./image/codi/남자 스트릿/여름/img1.jpg",
+          "top": "체크셔츠와 데님자켓",
+          "bottom": "데님 팬츠 "
+        },
+        {
+          "id": "32",
+          "src": "./image/codi/남자 스트릿/여름/img.jpg",
+          "top": "흰 티셔츠와 셔츠",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "33",
+          "src": "./image/codi/남자 스트릿/여름/img3.jpg",
+          "top": "검정 기본티",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "34",
+          "src": "./image/codi/남자 스트릿/여름/img4.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "팬츠"
+        },
+        {
+          "id": "35",
+          "src": "./image/codi/남자 스트릿/여름/img5.jpg",
+          "top": "흰 티셔츠와 조끼 집업",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "36",
+          "src": "./image/codi/남자 스트릿/여름/img6.jpg",
+          "top": "흰 티셔츠",
+          "bottom": "카고 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "37",
+          "src": "./image/codi/남자 스트릿/가을/img1.jpg",
+          "top": "바람막이",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "38",
+          "src": "./image/codi/남자 스트릿/가을/img2.jpg",
+          "top": "바람막이",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "39",
+          "src": "./image/codi/남자 스트릿/가을/img3.jpg",
+          "top": "집업니트",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "40",
+          "src": "./image/codi/남자 스트릿/가을/img4.jpg",
+          "top": "바람막이",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "41",
+          "src": "./image/codi/남자 스트릿/가을/img5.jpg",
+          "top": "바람막이",
+          "bottom": "조거 팬츠"
+        },
+        {
+          "id": "42",
+          "src": "./image/codi/남자 스트릿/가을/img6.jpg",
+          "top": "가죽자켓",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "43",
+          "src": "./image/codi/남자 스트릿/겨울/img1.jpg",
+          "top": "패딩",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "44",
+          "src": "./image/codi/남자 스트릿/겨울/img2.jpg",
+          "top": "후드티와 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "45",
+          "src": "./image/codi/남자 스트릿/겨울/img3.jpg",
+          "top": "후드티 야구점퍼",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "46",
+          "src": "./image/codi/남자 스트릿/겨울/img4.jpg",
+          "top": "후드티와 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "47",
+          "src": "./image/codi/남자 스트릿/겨울/img5.jpg",
+          "top": "후드티와 경량패딩",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "48",
+          "src": "./image/codi/남자 스트릿/겨울/img6.jpg",
+          "top": "후드티와 가죽자켓",
+          "bottom": "데님 팬츠"
+        }
+      ]
+    },
+    "모던": {
+      "봄": [
+        {
+          "id": "49",
+          "src": "./image/codi/남자 모던/봄/img1.jpg",
+          "top": "블레이저",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "50",
+          "src": "./image/codi/남자 모던/봄/img2.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "51",
+          "src": "./image/codi/남자 모던/봄/img3.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "52",
+          "src": "./image/codi/남자 모던/봄/img4.jpg",
+          "top": "트렌치 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "53",
+          "src": "./image/codi/남자 모던/봄/img5.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "54",
+          "src": "./image/codi/남자 모던/봄/img6.jpg",
+          "top": "셔츠",
+          "bottom": "슬랙스"
+        }
+      ],
+      "여름": [
+        {
+          "id": "55",
+          "src": "./image/codi/남자 모던/여름/img1.jpg",
+          "top": "데님 셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "56",
+          "src": "./image/codi/남자 모던/여름/img.jpg",
+          "top": "흰 티셔츠와 셔츠",
+          "bottom": "팬츠"
+        },
+        {
+          "id": "57",
+          "src": "./image/codi/남자 모던/여름/img3.jpg",
+          "top": "셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "58",
+          "src": "./image/codi/남자 모던/여름/img4.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "팬츠"
+        },
+        {
+          "id": "59",
+          "src": "./image/codi/남자 모던/여름/img5.jpg",
+          "top": "스트라이프 셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "60",
+          "src": "./image/codi/남자 모던/여름/img6.jpg",
+          "top": "반팔 니트",
+          "bottom": "코튼 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "61",
+          "src": "./image/codi/남자 모던/가을/img1.jpg",
+          "top": "검정 니트와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "62",
+          "src": "./image/codi/남자 모던/가을/img2.jpg",
+          "top": "블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "63",
+          "src": "./image/codi/남자 모던/가을/img3.jpg",
+          "top": "블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "64",
+          "src": "./image/codi/남자 모던/가을/img4.jpg",
+          "top": "블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "65",
+          "src": "./image/codi/남자 모던/가을/img5.jpg",
+          "top": "블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "66",
+          "src": "./image/codi/남자 모던/가을/img6.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "67",
+          "src": "./image/codi/남자 모던/겨울/img1.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "68",
+          "src": "./image/codi/남자 모던/겨울/img2.jpg",
+          "top": "니트와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "69",
+          "src": "./image/codi/남자 모던/겨울/img3.jpg",
+          "top": "니트와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "70",
+          "src": "./image/codi/남자 모던/겨울/img4.jpg",
+          "top": "목폴라와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "71",
+          "src": "./image/codi/남자 모던/겨울/img5.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "72",
+          "src": "./image/codi/남자 모던/겨울/img6.jpg",
+          "top": "셔츠와 코트",
+          "bottom": "슬랙스"
+        }
+      ]
+    },
+    "로맨틱": {
+      "봄": [
+        {
+          "id": "73",
+          "src": "./image/codi/남자 로맨틱/봄/img1.jpg",
+          "top": "블루종 자켓",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "74",
+          "src": "./image/codi/남자 로맨틱/봄/img2.jpg",
+          "top": "흰 티셔츠와 가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "75",
+          "src": "./image/codi/남자 로맨틱/봄/img3.jpg",
+          "top": "체크 셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "76",
+          "src": "./image/codi/남자 로맨틱/봄/img4.png",
+          "top": "셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "77",
+          "src": "./image/codi/남자 로맨틱/봄/img5.jpg",
+          "top": "가죽 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "78",
+          "src": "./image/codi/남자 로맨틱/봄/img6.jpg",
+          "top": "가죽 자켓",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "여름": [
+        {
+          "id": "79",
+          "src": "./image/codi/남자 로맨틱/여름/img1.jpg",
+          "top": "셔츠",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "80",
+          "src": "./image/codi/남자 로맨틱/여름/img2.jpg",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "81",
+          "src": "./image/codi/남자 로맨틱/여름/img3.jpg",
+          "top": "데님 셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "82",
+          "src": "./image/codi/남자 로맨틱/여름/img4.jpg",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "83",
+          "src": "./image/codi/남자 로맨틱/여름/img5.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "84",
+          "src": "./image/codi/남자 로맨틱/여름/img6.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "슬랙스"
+        }
+      ],
+      "가을": [
+        {
+          "id": "85",
+          "src": "./image/codi/남자 로맨틱/가을/img1.jpg",
+          "top": "후드티와 가죽자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "86",
+          "src": "./image/codi/남자 로맨틱/가을/img2.jpg",
+          "top": "후드티와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "87",
+          "src": "./image/codi/남자 로맨틱/가을/img3.jpg",
+          "top": "목폴라와 블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "88",
+          "src": "./image/codi/남자 로맨틱/가을/img4.jpg",
+          "top": "반집업 니트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "89",
+          "src": "./image/codi/남자 로맨틱/가을/img5.jpg",
+          "top": "블루종 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "90",
+          "src": "./image/codi/남자 로맨틱/가을/img6.jpg",
+          "top": "후드티와 코트",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "91",
+          "src": "./image/codi/남자 로맨틱/겨울/img1.jpg",
+          "top": "후드티와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "92",
+          "src": "./image/codi/남자 로맨틱/겨울/img2.jpg",
+          "top": "반집업 니트와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "93",
+          "src": "./image/codi/남자 로맨틱/겨울/img3.jpg",
+          "top": "코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "94",
+          "src": "./image/codi/남자 로맨틱/겨울/img4.jpg",
+          "top": "목폴라와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "95",
+          "src": "./image/codi/남자 로맨틱/겨울/img5.jpg",
+          "top": "블루종 자켓",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "96",
+          "src": "./image/codi/남자 로맨틱/겨울/img6.jpg",
+          "top": "니트와 패딩",
+          "bottom": "코튼 팬츠"
+        }
+      ]
+    },
+    "미니멀": {
+      "봄": [
+        {
+          "id": "97",
+          "src": "./image/codi/남자 미니멀/봄/img1.jpg",
+          "top": "블루종 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "98",
+          "src": "./image/codi/남자 미니멀/봄/img2.jpg",
+          "top": "셔츠",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "99",
+          "src": "./image/codi/남자 미니멀/봄/img3.jpg",
+          "top": "블레이져",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "100",
+          "src": "./image/codi/남자 미니멀/봄/img4.jpg",
+          "top": "체크 셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "101",
+          "src": "./image/codi/남자 미니멀/봄/img5.jpg",
+          "top": "자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "102",
+          "src": "./image/codi/남자 미니멀/봄/img6.jpg",
+          "top": "셔츠와 반집업",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "여름": [
+        {
+          "id": "103",
+          "src": "./image/codi/남자 미니멀/여름/img1.jpg",
+          "top": " 반팔 셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "104",
+          "src": "./image/codi/남자 미니멀/여름/img2.jpg",
+          "top": "반팔",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "105",
+          "src": "./image/codi/남자 미니멀/여름/img3.jpg",
+          "top": "반팔",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "106",
+          "src": "./image/codi/남자 미니멀/여름/img4.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "와이드 코튼 팬츠"
+        },
+        {
+          "id": "107",
+          "src": "./image/codi/남자 미니멀/여름/img5.jpg",
+          "top": "반집업 바람막이",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "108",
+          "src": "./image/codi/남자 미니멀/여름/img6.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "버뮤다 데님 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "109",
+          "src": "./image/codi/남자 미니멀/가을/img1.jpg",
+          "top": "셔츠와 니트",
+          "bottom": "와이드 코튼 팬츠"
+        },
+        {
+          "id": "110",
+          "src": "./image/codi/남자 미니멀/가을/img2.jpg",
+          "top": "셔츠와 반집업 니트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "111",
+          "src": "./image/codi/남자 미니멀/가을/img3.jpg",
+          "top": "셔츠",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "112",
+          "src": "./image/codi/남자 미니멀/가을/img4.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "113",
+          "src": "./image/codi/남자 미니멀/가을/img5.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "114",
+          "src": "./image/codi/남자 미니멀/가을/img6.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "코튼 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "115",
+          "src": "./image/codi/남자 미니멀/겨울/img1.jpg",
+          "top": "니트와 코트, 목도리",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "116",
+          "src": "./image/codi/남자 미니멀/겨울/img2.jpg",
+          "top": "셔츠와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "117",
+          "src": "./image/codi/남자 미니멀/겨울/img3.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "118",
+          "src": "./image/codi/남자 미니멀/겨울/img4.jpg",
+          "top": "블루종 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "119",
+          "src": "./image/codi/남자 미니멀/겨울/img5.jpg",
+          "top": "경량 패딩",
+          "bottom": "트레이닝 바지"
+        },
+        {
+          "id": "120",
+          "src": "./image/codi/남자 미니멀/겨울/img6.jpg",
+          "top": "패딩",
+          "bottom": "코튼 팬츠"
+        }
+      ]
+    }
+  },
+  "w": {
+    "캐주얼": {
+      "봄": [
+        {
+          "id": "1",
+          "src": "./image/codi/여자 캐주얼/봄/img1.jpg",
+          "top": "셔츠",
+          "bottom": "와이드 팬츠"
+        },
+        {
+          "id": "2",
+          "src": "./image/codi/여자 캐주얼/봄/img2.jpg",
+          "top": "브이넥 니트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "3",
+          "src": "./image/codi/여자 캐주얼/봄/img3.jpg",
+          "top": "가디건",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "4",
+          "src": "./image/codi/여자 캐주얼/봄/img4.jpg",
+          "top": "가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "5",
+          "src": "./image/codi/여자 캐주얼/봄/img5.jpg",
+          "top": "셔츠와 니트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "6",
+          "src": "./image/codi/여자 캐주얼/봄/img6.jpg",
+          "top": "가디건",
+          "bottom": "코튼 팬츠"
+        }
+      ],
+      "여름": [
+        {
+          "id": "7",
+          "src": "./image/codi/여자 캐주얼/여름/img1.jpg",
+          "top": "반팔 블라우스",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "8",
+          "src": "./image/codi/여자 캐주얼/여름/img2.jpg",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "9",
+          "src": "./image/codi/여자 캐주얼/여름/img3.jpg",
+          "top": "나시와 가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "10",
+          "src": "./image/codi/여자 캐주얼/여름/img4.jpg",
+          "top": "긴팔",
+          "bottom": "버뮤다 데님 팬츠"
+        },
+        {
+          "id": "11",
+          "src": "./image/codi/여자 캐주얼/여름/img5.jpg",
+          "top": "블라우스와 가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "12",
+          "src": "./image/codi/여자 캐주얼/여름/img6.jpg",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "13",
+          "src": "./image/codi/여자 캐주얼/가을/img1.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "14",
+          "src": "./image/codi/여자 캐주얼/가을/img2.jpg",
+          "top": "후드집업",
+          "bottom": "트레이닝 바지"
+        },
+        {
+          "id": "15",
+          "src": "./image/codi/여자 캐주얼/가을/img3.jpg",
+          "top": "흰 티셔츠와 자켓",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "16",
+          "src": "./image/codi/여자 캐주얼/가을/img4.jpg",
+          "top": "흰 티셔츠와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "17",
+          "src": "./image/codi/여자 캐주얼/가을/img5.jpg",
+          "top": "후드집업",
+          "bottom": "와이드 데님 팬츠"
+        },
+        {
+          "id": "18",
+          "src": "./image/codi/여자 캐주얼/가을/img6.jpg",
+          "top": "흰 티셔츠와 자켓",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "19",
+          "src": "./image/codi/여자 캐주얼/겨울/img1.jpg",
+          "top": "후드티와 패딩",
+          "bottom": "트레이닝 바지"
+        },
+        {
+          "id": "20",
+          "src": "./image/codi/여자 캐주얼/겨울/img2.jpg",
+          "top": "체크셔츠와 후리스",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "21",
+          "src": "./image/codi/여자 캐주얼/겨울/img3.jpg",
+          "top": "무스탕",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "22",
+          "src": "./image/codi/여자 캐주얼/겨울/img4.jpg",
+          "top": "맨투맨와 패딩",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "23",
+          "src": "./image/codi/여자 캐주얼/겨울/img5.jpg",
+          "top": "가디건과 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "24",
+          "src": "./image/codi/여자 캐주얼/겨울/img6.jpg",
+          "top": "경량 패딩",
+          "bottom": "데님 팬츠"
+        }
+      ]
+    },
+    "스트릿": {
+      "봄": [
+        {
+          "id": "25",
+          "src": "./image/codi/여자 스트릿/봄/img1.jpg",
+          "top": "가죽 자켓",
+          "bottom": "롱 스커트"
+        },
+        {
+          "id": "26",
+          "src": "./image/codi/여자 스트릿/봄/img2.jpg",
+          "top": "가디건",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "27",
+          "src": "./image/codi/여자 스트릿/봄/img3.jpg",
+          "top": "가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "28",
+          "src": "./image/codi/여자 스트릿/봄/img4.jpg",
+          "top": "트랙탑",
+          "bottom": "숏 스커트"
+        },
+        {
+          "id": "29",
+          "src": "./image/codi/여자 스트릿/봄/img5.jpg",
+          "top": "블라우스",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "30",
+          "src": "./image/codi/여자 스트릿/봄/img6.jpg",
+          "top": "니트 집업",
+          "bottom": "카고 팬츠"
+        }
+      ],
+      "여름": [
+        {
+          "id": "31",
+          "src": "./image/codi/여자 스트릿/여름/img1.jpg",
+          "top": "반팔과 체크셔츠",
+          "bottom": "데님 팬츠 "
+        },
+        {
+          "id": "32",
+          "src": "./image/codi/여자 스트릿/여름/img.jpg",
+          "top": "반팔 셔츠",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "33",
+          "src": "./image/codi/여자 스트릿/여름/img3.jpg",
+          "top": "반팔",
+          "bottom": "버뮤다 데님 팬츠"
+        },
+        {
+          "id": "34",
+          "src": "./image/codi/여자 스트릿/여름/img4.jpg",
+          "top": "반팔 데님 셔츠",
+          "bottom": "와이드 팬츠"
+        },
+        {
+          "id": "35",
+          "src": "./image/codi/여자 스트릿/여름/img5.jpg",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "36",
+          "src": "./image/codi/여자 스트릿/여름/img6.jpg",
+          "top": "반팔",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "37",
+          "src": "./image/codi/여자 스트릿/가을/img1.jpg",
+          "top": "체크 셔츠",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "38",
+          "src": "./image/codi/여자 스트릿/가을/img2.jpg",
+          "top": "롱 슬리브",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "39",
+          "src": "./image/codi/여자 스트릿/가을/img3.jpg",
+          "top": "체크 셔츠",
+          "bottom": "카고 팬츠"
+        },
+        {
+          "id": "40",
+          "src": "./image/codi/여자 스트릿/가을/img4.jpg",
+          "top": "야상점퍼",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "41",
+          "src": "./image/codi/여자 스트릿/가을/img5.jpg",
+          "top": "블레이져",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "42",
+          "src": "./image/codi/여자 스트릿/가을/img6.png",
+          "top": "가디건",
+          "bottom": "카고 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "43",
+          "src": "./image/codi/여자 스트릿/겨울/img1.jpg",
+          "top": "코트",
+          "bottom": "와이드 팬츠"
+        },
+        {
+          "id": "44",
+          "src": "./image/codi/여자 스트릿/겨울/img2.jpg",
+          "top": "롱슬리브와 패딩",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "45",
+          "src": "./image/codi/여자 스트릿/겨울/img3.jpg",
+          "top": "패딩과 목도리",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "46",
+          "src": "./image/codi/여자 스트릿/겨울/img4.jpg",
+          "top": "패딩",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "47",
+          "src": "./image/codi/여자 스트릿/겨울/img5.jpg",
+          "top": "후드티와 경량패딩",
+          "bottom": "와이드 팬츠"
+        },
+        {
+          "id": "48",
+          "src": "./image/codi/여자 스트릿/겨울/img6.jpg",
+          "top": "블레이져와 목도리",
+          "bottom": "데님 팬츠"
+        }
+      ]
+    },
+    "모던": {
+      "봄": [
+        {
+          "id": "49",
+          "src": "./image/codi/여자 모던/봄/img1.jpg",
+          "top": "블레이저",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "50",
+          "src": "./image/codi/여자 모던/봄/img2.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "51",
+          "src": "./image/codi/여자 모던/봄/img3.jpg",
+          "top": "셔츠와 트위드",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "52",
+          "src": "./image/codi/여자 모던/봄/img4.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "53",
+          "src": "./image/codi/여자 모던/봄/img5.jpg",
+          "top": "목폴라와 트위드",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "54",
+          "src": "./image/codi/여자 모던/봄/img6.jpg",
+          "top": "셔츠",
+          "bottom": "슬랙스"
+        }
+      ],
+      "여름": [
+        {
+          "id": "55",
+          "src": "./image/codi/여자 모던/여름/img1.jpg",
+          "top": "반팔 블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "56",
+          "src": "./image/codi/여자 모던/여름/img.jpg",
+          "top": "셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "57",
+          "src": "./image/codi/여자 모던/여름/img3.jpg",
+          "top": "나시와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "58",
+          "src": "./image/codi/여자 모던/여름/img4.jpg",
+          "top": "셔츠",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "59",
+          "src": "./image/codi/여자 모던/여름/img5.jpg",
+          "top": "여름가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "60",
+          "src": "./image/codi/여자 모던/여름/img6.jpg",
+          "top": "블레이져",
+          "bottom": "슬랙스"
+        }
+      ],
+      "가을": [
+        {
+          "id": "61",
+          "src": "./image/codi/여자 모던/가을/img1.jpg",
+          "top": "레이어드티와 블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "62",
+          "src": "./image/codi/여자 모던/가을/img2.jpg",
+          "top": "블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "63",
+          "src": "./image/codi/여자 모던/가을/img3.jpg",
+          "top": "셔츠와 블레이져",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "64",
+          "src": "./image/codi/여자 모던/가을/img4.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "65",
+          "src": "./image/codi/여자 모던/가을/img5.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "66",
+          "src": "./image/codi/여자 모던/가을/img6.jpg",
+          "top": "코트",
+          "bottom": "롱 스커트"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "67",
+          "src": "./image/codi/여자 모던/겨울/img1.jpg",
+          "top": "코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "68",
+          "src": "./image/codi/여자 모던/겨울/img2.jpg",
+          "top": "니트와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "69",
+          "src": "./image/codi/여자 모던/겨울/img3.jpg",
+          "top": "니트와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "70",
+          "src": "./image/codi/여자 모던/겨울/img4.jpg",
+          "top": "목폴라와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "71",
+          "src": "./image/codi/여자 모던/겨울/img5.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "72",
+          "src": "./image/codi/여자 모던/겨울/img6.jpg",
+          "top": "무스탕",
+          "bottom": "슬랙스"
+        }
+      ]
+    },
+    "로맨틱": {
+      "봄": [
+        {
+          "id": "73",
+          "src": "./image/codi/여자 로맨틱/봄/img1.jpg",
+          "top": "나시와 가디건",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "74",
+          "src": "./image/codi/여자 로맨틱/봄/img2.jpg",
+          "top": "흰 티셔츠와 데님 자켓",
+          "bottom": "스커트"
+        },
+        {
+          "id": "75",
+          "src": "./image/codi/여자 로맨틱/봄/img3.jpg",
+          "top": "가디건",
+          "bottom": "스커트"
+        },
+        {
+          "id": "76",
+          "src": "./image/codi/여자 로맨틱/봄/img4.png",
+          "top": "레이어드 티",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "77",
+          "src": "./image/codi/여자 로맨틱/봄/img5.jpg",
+          "top": "프렌치 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "78",
+          "src": "./image/codi/여자 로맨틱/봄/img6.jpg",
+          "top": "가디건",
+          "bottom": "스커트"
+        }
+      ],
+      "여름": [
+        {
+          "id": "79",
+          "src": "./image/codi/여자 로맨틱/여름/img1.jpg",
+          "top": "기본티와 자켓",
+          "bottom": "스커트"
+        },
+        {
+          "id": "80",
+          "src": "./image/codi/여자 로맨틱/여름/img2.jpg",
+          "top": "오프숄더 슬리브",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "81",
+          "src": "./image/codi/여자 로맨틱/여름/img3.jpg",
+          "top": "데님 자켓",
+          "bottom": "데님 스커트"
+        },
+        {
+          "id": "82",
+          "src": "./image/codi/여자 로맨틱/여름/img4.jpg",
+          "top": "셔츠와 반팔 조끼",
+          "bottom": "롱 스커트"
+        },
+        {
+          "id": "83",
+          "src": "./image/codi/여자 로맨틱/여름/img5.jpg",
+          "top": "나시",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "84",
+          "src": "./image/codi/여자 로맨틱/여름/img6.jpg",
+          "top": "반팔",
+          "bottom": "스커트"
+        }
+      ],
+      "가을": [
+        {
+          "id": "85",
+          "src": "./image/codi/여자 로맨틱/가을/img1.jpg",
+          "top": "오프숄더 니트",
+          "bottom": "데님 부츠컷 팬츠"
+        },
+        {
+          "id": "86",
+          "src": "./image/codi/여자 로맨틱/가을/img2.jpg",
+          "top": "니트 가디건",
+          "bottom": "스커트"
+        },
+        {
+          "id": "87",
+          "src": "./image/codi/여자 로맨틱/가을/img3.jpg",
+          "top": "셔츠와 가디건",
+          "bottom": "스커트"
+        },
+        {
+          "id": "88",
+          "src": "./image/codi/여자 로맨틱/가을/img4.jpg",
+          "top": "블레이져",
+          "bottom": "스커트"
+        },
+        {
+          "id": "89",
+          "src": "./image/codi/여자 로맨틱/가을/img5.jpg",
+          "top": "블루종 자켓",
+          "bottom": "스커트"
+        },
+        {
+          "id": "90",
+          "src": "./image/codi/여자 로맨틱/가을/img6.jpg",
+          "top": "후드집업",
+          "bottom": "롱 스커트"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "91",
+          "src": "./image/codi/여자 로맨틱/겨울/img1.jpg",
+          "top": "하프코트",
+          "bottom": "스커트"
+        },
+        {
+          "id": "92",
+          "src": "./image/codi/여자 로맨틱/겨울/img2.jpg",
+          "top": "패딩",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "93",
+          "src": "./image/codi/여자 로맨틱/겨울/img3.jpg",
+          "top": "코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "94",
+          "src": "./image/codi/여자 로맨틱/겨울/img4.jpg",
+          "top": "니트와 패딩",
+          "bottom": "스커트"
+        },
+        {
+          "id": "95",
+          "src": "./image/codi/여자 로맨틱/겨울/img5.jpg",
+          "top": "패딩",
+          "bottom": "스커트"
+        },
+        {
+          "id": "96",
+          "src": "./image/codi/여자 로맨틱/겨울/img6.jpg",
+          "top": "코트",
+          "bottom": "코튼 팬츠"
+        }
+      ]
+    },
+    "미니멀": {
+      "봄": [
+        {
+          "id": "97",
+          "src": "./image/codi/여자 미니멀/봄/img1.jpg",
+          "top": "가디건",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "98",
+          "src": "./image/codi/여자 미니멀/봄/img2.jpg",
+          "top": "가디건",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "99",
+          "src": "./image/codi/여자 미니멀/봄/img3.jpg",
+          "top": "기본티",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "100",
+          "src": "./image/codi/여자 미니멀/봄/img4.jpg",
+          "top": "레이어드 티",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "101",
+          "src": "./image/codi/여자 미니멀/봄/img5.jpg",
+          "top": "롱 슬리브",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "102",
+          "src": "./image/codi/여자 미니멀/봄/img6.jpg",
+          "top": "셔츠와 블레이져",
+          "bottom": "스커트"
+        }
+      ],
+      "여름": [
+        {
+          "id": "103",
+          "src": "./image/codi/여자 미니멀/여름/img1.jpg",
+          "top": " 가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "104",
+          "src": "./image/codi/여자 미니멀/여름/img2.jpg",
+          "top": "긴팔",
+          "bottom": "코튼 팬츠"
+        },
+        {
+          "id": "105",
+          "src": "./image/codi/여자 미니멀/여름/img3.jpg",
+          "top": "가디건",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "106",
+          "src": "./image/codi/여자 미니멀/여름/img4.jpg",
+          "top": "반팔 가디건",
+          "bottom": "와이드 데님 팬츠"
+        },
+        {
+          "id": "107",
+          "src": "./image/codi/여자 미니멀/여름/img5.jpg",
+          "top": "셔츠",
+          "bottom": "스커트"
+        },
+        {
+          "id": "108",
+          "src": "./image/codi/여자 미니멀/여름/img6.jpg",
+          "top": "셔츠와 긴팔",
+          "bottom": "버뮤다 팬츠"
+        }
+      ],
+      "가을": [
+        {
+          "id": "109",
+          "src": "./image/codi/여자 미니멀/가을/img1.jpg",
+          "top": "셔츠와 니트",
+          "bottom": "와이드 코튼 팬츠"
+        },
+        {
+          "id": "110",
+          "src": "./image/codi/여자 미니멀/가을/img2.jpg",
+          "top": "셔츠와 브이넥 니트",
+          "bottom": "와이드 팬츠"
+        },
+        {
+          "id": "111",
+          "src": "./image/codi/여자 미니멀/가을/img3.jpg",
+          "top": "니트와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "112",
+          "src": "./image/codi/여자 미니멀/가을/img4.jpg",
+          "top": "니트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "113",
+          "src": "./image/codi/여자 미니멀/가을/img5.jpg",
+          "top": "니트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "114",
+          "src": "./image/codi/여자 미니멀/가을/img6.jpg",
+          "top": "무스탕",
+          "bottom": "데님 팬츠"
+        }
+      ],
+      "겨울": [
+        {
+          "id": "115",
+          "src": "./image/codi/여자 미니멀/겨울/img1.jpg",
+          "top": "니트와 코트",
+          "bottom": "데님 팬츠"
+        },
+        {
+          "id": "116",
+          "src": "./image/codi/여자 미니멀/겨울/img2.jpg",
+          "top": "셔츠와 코트",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "117",
+          "src": "./image/codi/여자 미니멀/겨울/img3.jpg",
+          "top": "가죽 자켓",
+          "bottom": "슬랙스"
+        },
+        {
+          "id": "118",
+          "src": "./image/codi/여자 미니멀/겨울/img4.jpg",
+          "top": "니트와 목도리",
+          "bottom": "스커트"
+        },
+        {
+          "id": "119",
+          "src": "./image/codi/여자 미니멀/겨울/img5.jpg",
+          "top": "코트",
+          "bottom": "스커트"
+        },
+        {
+          "id": "120",
+          "src": "./image/codi/여자 미니멀/겨울/img6.jpg",
+          "top": "자켓",
+          "bottom": "슬랙스"
+        }
+      ]
+    }
+  }
+
+
+
+}
