@@ -72,7 +72,7 @@
         },
         {
           "id": "12",
-          "src": "./image/codi/남자 캐주얼/여름/img6.png",
+          "src": "./image/codi/남자 캐주얼/여름/img6.jpg",
           "top": "반팔",
           "bottom": "데님 팬츠"
         }
@@ -202,7 +202,7 @@
         },
         {
           "id": "32",
-          "src": "./image/codi/남자 스트릿/여름/img.jpg",
+          "src": "./image/codi/남자 스트릿/여름/img2.jpg",
           "top": "흰 티셔츠와 셔츠",
           "bottom": "카고 팬츠"
         },
@@ -356,7 +356,7 @@
         },
         {
           "id": "56",
-          "src": "./image/codi/남자 모던/여름/img.jpg",
+          "src": "./image/codi/남자 모던/여름/img2.jpg",
           "top": "흰 티셔츠와 셔츠",
           "bottom": "팬츠"
         },
@@ -974,7 +974,7 @@
         },
         {
           "id": "32",
-          "src": "./image/codi/여자 스트릿/여름/img.jpg",
+          "src": "./image/codi/여자 스트릿/여름/img2.jpg",
           "top": "반팔 셔츠",
           "bottom": "데님 팬츠"
         },
@@ -1122,13 +1122,13 @@
       "여름": [
         {
           "id": "55",
-          "src": "./image/codi/여자 모던/여름/img1.jpg",
+          "src": "./image/codi/여자 모던/여름/img1.png",
           "top": "반팔 블레이져",
           "bottom": "슬랙스"
         },
         {
           "id": "56",
-          "src": "./image/codi/여자 모던/여름/img.jpg",
+          "src": "./image/codi/여자 모던/여름/img2.jpg",
           "top": "셔츠",
           "bottom": "슬랙스"
         },
@@ -1257,8 +1257,8 @@
         {
           "id": "76",
           "src": "./image/codi/여자 로맨틱/봄/img4.jpg",
-          "top": "레이어드 티",
-          "bottom": "슬랙스"
+          "top": "꽈배기 니트",
+          "bottom": "A라인 미니스커트"
         },
         {
           "id": "77",
