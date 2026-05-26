@@ -1,4 +1,4 @@
-![banner](https://github.com/user-attachments/assets/d1cb3cc5-a862-4307-a14b-003dce1c603e)
+<img width="1600" height="800" alt="weather_mood_readme" src="https://github.com/user-attachments/assets/a7d7967a-b23d-4374-8afe-d9a0b32fa123" />
 
 ## ✨ 소개
 <b>Weather Mood</b>는 날씨 정보를 기반으로 사용자의 일상과 연결되는 라이프스타일 앱입니다.<br>
