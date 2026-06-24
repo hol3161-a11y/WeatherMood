@@ -201,16 +201,11 @@ WEATHER-MOOD
 | 발표자료 | [발표자료.pdf](https://github.com/user-attachments/files/26004177/B.Weather.Mood.pdf) | 팀 프로젝트 발표용 슬라이드 자료 |
 
 
-## 💾 프로젝트 저장소
-프론트엔드와 서버 소스 코드는 별도의 저장소로 분리되어있습니다.
-* [서버 저장소 바로가기](https://github.com/duajd3-lab/Weather-Mood)
 
 
 # 📌 개발 상세 
 
-# 👨‍💻 담당 페이지 및 기능 구현
-
-# 🏠 메인 페이지 (Home)
+## 🏠 메인 페이지 (Home)
 
 ### 온보딩(성별 선택) 기능 구현
 - 최초 방문 시 성별 선택 온보딩 화면 표시
@@ -244,9 +239,7 @@ WEATHER-MOOD
 
 ---
 
-# 🌤 날씨 정보 페이지 (Weather)
-
-## 현재 날씨 정보
+## 🌤 날씨 정보 페이지 (Weather)
 
 ### 현재 날씨 표시
 - 기상청 초단기 실황 API(`getUltraSrtNcst`) 사용
@@ -289,7 +282,7 @@ WEATHER-MOOD
 
 ---
 
-# 🌫 미세먼지 정보
+## 🌫 미세먼지 정보
 
 ### 대기질 데이터 호출
 - 환경부 API(`getMsrstnAcctoRltmMesureDnsty`)
@@ -314,7 +307,7 @@ WEATHER-MOOD
 
 ---
 
-# 🌅 일출 · 일몰 정보
+## 🌅 일출 · 일몰 정보
 
 ### 일출 / 일몰 API
 - 천문 API(`RiseSetInfoService`) 사용
@@ -328,7 +321,7 @@ WEATHER-MOOD
 
 ---
 
-# 🌙 달 위상 정보
+## 🌙 달 위상 정보
 
 ### 달 위상 API
 - 천문 API(`LunPhInfoService`) 사용
@@ -351,7 +344,7 @@ WEATHER-MOOD
 
 ---
 
-# 👕 코디 추천 페이지
+## 👕 코디 추천 페이지
 
 ### 코디 추천 기능
 - 현재 기온을 기준으로 계절 자동 판단
@@ -371,7 +364,7 @@ WEATHER-MOOD
 
 ---
 
-# ⭐ 코디 스크랩 보관함
+## ⭐ 코디 스크랩 보관함
 
 ### 코디 스크랩 데이터 로딩
 - LocalStorage(`scrapList`)에서 스크랩 ID 불러오기
@@ -388,7 +381,7 @@ WEATHER-MOOD
 
 ---
 
-# 🎵 음악 추천 페이지
+## 🎵 음악 추천 페이지
 
 ### 날씨 기반 음악 추천
 - 날씨 상태와 기온을 기준으로 플레이리스트 추천
@@ -411,7 +404,7 @@ WEATHER-MOOD
 
 ---
 
-# 🎧 음악 스크랩 보관함
+## 🎧 음악 스크랩 보관함
 
 ### 음악 데이터 로딩
 - LocalStorage(`moodList`)에서 스크랩 ID 불러오기
@@ -429,7 +422,7 @@ WEATHER-MOOD
 
 ---
 
-# ⚙ 공통 기능
+## ⚙ 공통 기능
 
 ### 스플래시 애니메이션
 - `sessionStorage` 활용
